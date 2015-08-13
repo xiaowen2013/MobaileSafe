@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:itheima="http://schemas.android.com/apk/res/cn.itcase.safe.activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TitleBarStyle"
+        android:text="常用工具" />
+
+    <cn.itcase.safe.view.SettingItemView
+        android:id="@+id/comutils_siv_inquiry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        itheima:itbackground="first"
+        itheima:toggleEnable="false"
+        itheima:title="号码归属地查询" />
+
+    <cn.itcase.safe.view.SettingItemView
+        android:id="@+id/common_siv_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itheima:itbackground="last"
+        itheima:toggleEnable="false"
+        itheima:title="常用号码查询" />
+    
+    <cn.itcase.safe.view.SettingItemView
+        android:id="@+id/comutils_siv_sms_backups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        itheima:itbackground="first"
+        itheima:toggleEnable="false"
+        itheima:title="短信备份" />
+
+    <cn.itcase.safe.view.SettingItemView
+        android:id="@+id/common_siv_sms_recovery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itheima:itbackground="last"
+        itheima:toggleEnable="false"
+        itheima:title="短息恢复" />
+    
+    <cn.itcase.safe.view.SettingItemView
+        android:id="@+id/comutils_siv_app_lock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        itheima:itbackground="first"
+        itheima:toggleEnable="false"
+        itheima:title="程序锁的管理" />
+
+    <cn.itcase.safe.view.SettingItemView
+        android:id="@+id/comutils_op_lock1"
+        android:onClick="openLockService1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itheima:itbackground="middle"
+        itheima:title="开启电子狗服务1" />
+    
+    <cn.itcase.safe.view.SettingItemView
+        android:id="@+id/comutils_op_lock2"
+        android:layout_width="match_parent"
+         android:onClick="openLockService2"
+        android:layout_height="wrap_content"
+        itheima:itbackground="last"
+        itheima:title="开启电子狗服务2" />
+
+</LinearLayout>

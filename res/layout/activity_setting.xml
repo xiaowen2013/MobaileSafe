@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:itheima="http://schemas.android.com/apk/res/cn.itcase.safe.activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TitleBarStyle"
+        android:text="设置中心" />
+
+    <cn.itcase.safe.view.SettingItemView
+        android:id="@+id/setting_siv_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        itheima:itbackground="first"
+        itheima:title="设置自动更新" />
+
+    <cn.itcase.safe.view.SettingItemView
+         android:id="@+id/setting_siv_callSmsSafe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itheima:itbackground="last"
+        itheima:title="开启手机拦截" />
+
+    <cn.itcase.safe.view.SettingItemView
+         android:id="@+id/setting_siv_viewbelong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        itheima:itbackground="first"
+        itheima:title="显示归属地设置" />
+
+    <cn.itcase.safe.view.SettingItemView
+        android:id="@+id/setting_siv_viewstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itheima:itbackground="last"
+        itheima:title="归属地风格设置"
+        itheima:toggleEnable="false"
+         />
+
+</LinearLayout>

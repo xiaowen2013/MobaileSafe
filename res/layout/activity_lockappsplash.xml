@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/app_lock_sp_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_launcher1" />
+
+    <TextView
+        android:id="@+id/app_lock_sp_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_lock_sp_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+         android:textSize="20dp"
+        android:text="浏览器" />
+
+    <EditText
+        android:id="@+id/app_lock_sp_intext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_lock_sp_name" />
+
+    <Button
+        android:onClick="cilckOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_lock_sp_intext"
+        android:layout_centerHorizontal="true"
+        android:background="@color/bule"
+        android:text="确定"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_margin="8dp" />
+
+</RelativeLayout>

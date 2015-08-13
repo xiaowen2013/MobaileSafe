@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:layout_marginTop="5dp"
+     >
+    
+    <ImageView 
+        android:id="@+id/dialog_iv_icon"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/toast_address_gray"
+        />
+    
+    <TextView 
+        android:id="@+id/dialog_tv_title"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/dialog_iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#aa000000"
+        android:text="半透明"
+        />
+    <ImageView 
+        android:layout_marginRight="5dp"
+        android:id="@+id/dialog_iv_isselect"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_selected"
+        />
+
+</RelativeLayout>

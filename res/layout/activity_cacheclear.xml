@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/SetupTitleBarStyle"
+        android:gravity="center"
+        android:text="缓存清理" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/global_blue" >
+
+        <RelativeLayout
+            android:id="@+id/cache_rl"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" >
+
+            <RelativeLayout
+                android:id="@+id/cache_rl"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/scan_bg" >
+
+                <ImageView
+                    android:id="@+id/cache_iv_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_launcher1" />
+
+                <ImageView
+                    android:id="@+id/cache_iv_icon_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/scan_line" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="8dp"
+                android:layout_toRightOf="@id/cache_rl"
+                android:orientation="vertical" >
+
+                <ProgressBar
+                    android:id="@+id/cache_pro"
+                    style="@style/myProgressBarStyleCache"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:progress="32" />
+
+                <TextView
+                    android:id="@+id/cache_tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:singleLine="true"
+                    android:text="浏览器"
+                    android:textColor="@android:color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/cache_tv_momory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:singleLine="true"
+                    android:text="浏览器"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/cache_ll"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="12dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/cache_tv_scan_desc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="开发萨尔防盗&apos;阿卡佛啊发呆吗案多发哦额"
+                android:textColor="@android:color/white"
+                android:textSize="17dp" />
+
+            <Button
+                android:id="@+id/cache_btn_scan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="快速扫描"
+                android:textColor="@android:color/white"
+                android:textSize="17dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@+id/cache_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/cacheClear_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginBottom="1dp"
+        android:background="@color/global_blue"
+        android:text="一键清理" />
+
+</LinearLayout>

@@ -1,0 +1,1869 @@
+android.content.pm.IPackageDataObserver
+android.content.pm.IPackageDataObserver: void onRemoveCompleted(java.lang.String,boolean)
+android.content.pm.IPackageStatsObserver
+android.content.pm.IPackageStatsObserver: void onGetStatsCompleted(android.content.pm.PackageStats,boolean)
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+cn.itcase.safe.BaseApplication
+cn.itcase.safe.BaseApplication: BaseApplication()
+cn.itcase.safe.activity.AntiVirusActivity
+cn.itcase.safe.activity.AntiVirusActivity: AntiVirusActivity()
+cn.itcase.safe.activity.AntiVirusActivity: void onClick(android.view.View)
+cn.itcase.safe.activity.AppLockManagerActivity
+cn.itcase.safe.activity.AppLockManagerActivity: AppLockManagerActivity()
+cn.itcase.safe.activity.AppManagerActivity
+cn.itcase.safe.activity.AppManagerActivity: AppManagerActivity()
+cn.itcase.safe.activity.BaseSetupActivity: BaseSetupActivity()
+cn.itcase.safe.activity.BaseSetupActivity: void clickNext(android.view.View)
+cn.itcase.safe.activity.BaseSetupActivity: void clickPre(android.view.View)
+cn.itcase.safe.activity.BlacklistActivity
+cn.itcase.safe.activity.BlacklistActivity: BlacklistActivity()
+cn.itcase.safe.activity.CacheClearActivity
+cn.itcase.safe.activity.CacheClearActivity: CacheClearActivity()
+cn.itcase.safe.activity.CommonQueryNumber
+cn.itcase.safe.activity.CommonQueryNumber: CommonQueryNumber()
+cn.itcase.safe.activity.CommonUtilsActivity
+cn.itcase.safe.activity.CommonUtilsActivity: CommonUtilsActivity()
+cn.itcase.safe.activity.CommonUtilsActivity: void openLockService1(android.view.View)
+cn.itcase.safe.activity.CommonUtilsActivity: void openLockService2(android.view.View)
+cn.itcase.safe.activity.ContactSelectActivity
+cn.itcase.safe.activity.ContactSelectActivity: ContactSelectActivity()
+cn.itcase.safe.activity.HomeActivity
+cn.itcase.safe.activity.HomeActivity: HomeActivity()
+cn.itcase.safe.activity.HomeActivity: void clickSetting(android.view.View)
+cn.itcase.safe.activity.InquiryNumberBelong
+cn.itcase.safe.activity.InquiryNumberBelong: InquiryNumberBelong()
+cn.itcase.safe.activity.LjsrActivity
+cn.itcase.safe.activity.LjsrActivity: LjsrActivity()
+cn.itcase.safe.activity.LockServiceActivity
+cn.itcase.safe.activity.LockServiceActivity: LockServiceActivity()
+cn.itcase.safe.activity.LockServiceActivity: void cilckOk(android.view.View)
+cn.itcase.safe.activity.LostSetup1Activity
+cn.itcase.safe.activity.LostSetup1Activity: LostSetup1Activity()
+cn.itcase.safe.activity.LostSetup2Activity
+cn.itcase.safe.activity.LostSetup2Activity: LostSetup2Activity()
+cn.itcase.safe.activity.LostSetup2Activity: void setup2_bundle(android.view.View)
+cn.itcase.safe.activity.LostSetup3Activity
+cn.itcase.safe.activity.LostSetup3Activity: LostSetup3Activity()
+cn.itcase.safe.activity.LostSetup3Activity: void clickContact(android.view.View)
+cn.itcase.safe.activity.LostSetup4Activity
+cn.itcase.safe.activity.LostSetup4Activity: LostSetup4Activity()
+cn.itcase.safe.activity.LostSetup4Activity: void setp4_admin(android.view.View)
+cn.itcase.safe.activity.LostSetup5Activity
+cn.itcase.safe.activity.LostSetup5Activity: LostSetup5Activity()
+cn.itcase.safe.activity.LostSetupFindActivity
+cn.itcase.safe.activity.LostSetupFindActivity: LostSetupFindActivity()
+cn.itcase.safe.activity.LostSetupFindActivity: void isUnsealSafe(android.view.View)
+cn.itcase.safe.activity.LostSetupFindActivity: void reInstall(android.view.View)
+cn.itcase.safe.activity.ProcessManagerActivity
+cn.itcase.safe.activity.ProcessManagerActivity: ProcessManagerActivity()
+cn.itcase.safe.activity.ProcessManagerActivity: void clickAllCb(android.view.View)
+cn.itcase.safe.activity.ProcessManagerActivity: void clickReverse(android.view.View)
+cn.itcase.safe.activity.ProcessManagerActivity: void cleanAllCilck(android.view.View)
+cn.itcase.safe.activity.R$anim: int cycle_7
+cn.itcase.safe.activity.R$anim: int input_method_enter
+cn.itcase.safe.activity.R$anim: int input_method_exit
+cn.itcase.safe.activity.R$anim: int next_enter
+cn.itcase.safe.activity.R$anim: int next_exit
+cn.itcase.safe.activity.R$anim: int pop_enter
+cn.itcase.safe.activity.R$anim: int pop_exit
+cn.itcase.safe.activity.R$anim: int pre_enter
+cn.itcase.safe.activity.R$anim: int pre_exit
+cn.itcase.safe.activity.R$anim: int shake
+cn.itcase.safe.activity.R$attr: int arcProgressStyle
+cn.itcase.safe.activity.R$attr: int arc_angle
+cn.itcase.safe.activity.R$attr: int arc_bottom_text
+cn.itcase.safe.activity.R$attr: int arc_bottom_text_size
+cn.itcase.safe.activity.R$attr: int arc_finished_color
+cn.itcase.safe.activity.R$attr: int arc_max
+cn.itcase.safe.activity.R$attr: int arc_progress
+cn.itcase.safe.activity.R$attr: int arc_stroke_width
+cn.itcase.safe.activity.R$attr: int arc_suffix_text
+cn.itcase.safe.activity.R$attr: int arc_suffix_text_padding
+cn.itcase.safe.activity.R$attr: int arc_suffix_text_size
+cn.itcase.safe.activity.R$attr: int arc_text_color
+cn.itcase.safe.activity.R$attr: int arc_text_size
+cn.itcase.safe.activity.R$attr: int arc_unfinished_color
+cn.itcase.safe.activity.R$attr: int circleProgressStyle
+cn.itcase.safe.activity.R$attr: int circle_finished_color
+cn.itcase.safe.activity.R$attr: int circle_max
+cn.itcase.safe.activity.R$attr: int circle_prefix_text
+cn.itcase.safe.activity.R$attr: int circle_progress
+cn.itcase.safe.activity.R$attr: int circle_suffix_text
+cn.itcase.safe.activity.R$attr: int circle_text_color
+cn.itcase.safe.activity.R$attr: int circle_text_size
+cn.itcase.safe.activity.R$attr: int circle_unfinished_color
+cn.itcase.safe.activity.R$attr: int donutProgressStyle
+cn.itcase.safe.activity.R$attr: int donut_background_color
+cn.itcase.safe.activity.R$attr: int donut_circle_starting_degree
+cn.itcase.safe.activity.R$attr: int donut_finished_color
+cn.itcase.safe.activity.R$attr: int donut_finished_stroke_width
+cn.itcase.safe.activity.R$attr: int donut_inner_bottom_text
+cn.itcase.safe.activity.R$attr: int donut_inner_bottom_text_color
+cn.itcase.safe.activity.R$attr: int donut_inner_bottom_text_size
+cn.itcase.safe.activity.R$attr: int donut_max
+cn.itcase.safe.activity.R$attr: int donut_prefix_text
+cn.itcase.safe.activity.R$attr: int donut_progress
+cn.itcase.safe.activity.R$attr: int donut_suffix_text
+cn.itcase.safe.activity.R$attr: int donut_text
+cn.itcase.safe.activity.R$attr: int donut_text_color
+cn.itcase.safe.activity.R$attr: int donut_text_size
+cn.itcase.safe.activity.R$attr: int donut_unfinished_color
+cn.itcase.safe.activity.R$attr: int donut_unfinished_stroke_width
+cn.itcase.safe.activity.R$attr: int hasStickyHeaders
+cn.itcase.safe.activity.R$attr: int isDrawingListUnderStickyHeader
+cn.itcase.safe.activity.R$attr: int itbackground
+cn.itcase.safe.activity.R$attr: int stickyListHeadersListViewStyle
+cn.itcase.safe.activity.R$attr: int title
+cn.itcase.safe.activity.R$attr: int toggleEnable
+cn.itcase.safe.activity.R$color: int btn_normal_black_color
+cn.itcase.safe.activity.R$color: int btn_normal_color
+cn.itcase.safe.activity.R$color: int btn_pressed_black_color
+cn.itcase.safe.activity.R$color: int btn_pressed_color
+cn.itcase.safe.activity.R$color: int bule
+cn.itcase.safe.activity.R$color: int function_greenbutton_textcolor_selector
+cn.itcase.safe.activity.R$color: int global_blue
+cn.itcase.safe.activity.R$color: int lock_textcolor_select
+cn.itcase.safe.activity.R$color: int textColorPrimary
+cn.itcase.safe.activity.R$color: int textColorPrimaryDark
+cn.itcase.safe.activity.R$color: int white
+cn.itcase.safe.activity.R$dimen: int activity_horizontal_margin
+cn.itcase.safe.activity.R$dimen: int activity_vertical_margin
+cn.itcase.safe.activity.R$drawable: int admin_activated
+cn.itcase.safe.activity.R$drawable: int admin_inactivated
+cn.itcase.safe.activity.R$drawable: int antispam_report_button
+cn.itcase.safe.activity.R$drawable: int antispam_report_button_press
+cn.itcase.safe.activity.R$drawable: int blue_bkg
+cn.itcase.safe.activity.R$drawable: int btn_info_selector
+cn.itcase.safe.activity.R$drawable: int btn_lock_select
+cn.itcase.safe.activity.R$drawable: int btn_primary_selector
+cn.itcase.safe.activity.R$drawable: int btn_unlock_select
+cn.itcase.safe.activity.R$drawable: int callsma_safe_select_normal
+cn.itcase.safe.activity.R$drawable: int callsma_safe_select_press
+cn.itcase.safe.activity.R$drawable: int callsms_input_number
+cn.itcase.safe.activity.R$drawable: int callsms_safe
+cn.itcase.safe.activity.R$drawable: int clean_normal
+cn.itcase.safe.activity.R$drawable: int clean_pressed
+cn.itcase.safe.activity.R$drawable: int cygj
+cn.itcase.safe.activity.R$drawable: int delect_selector
+cn.itcase.safe.activity.R$drawable: int dg_btn_confirm_normal
+cn.itcase.safe.activity.R$drawable: int dg_btn_confirm_select
+cn.itcase.safe.activity.R$drawable: int dg_button_cancel_normal
+cn.itcase.safe.activity.R$drawable: int dg_button_cancel_select
+cn.itcase.safe.activity.R$drawable: int dialog_item
+cn.itcase.safe.activity.R$drawable: int dialog_title_background
+cn.itcase.safe.activity.R$drawable: int dialog_title_default_icon
+cn.itcase.safe.activity.R$drawable: int drawer_arrow_down
+cn.itcase.safe.activity.R$drawable: int drawer_arrow_up
+cn.itcase.safe.activity.R$drawable: int drawer_bg
+cn.itcase.safe.activity.R$drawable: int empty
+cn.itcase.safe.activity.R$drawable: int first_normal
+cn.itcase.safe.activity.R$drawable: int first_pressed
+cn.itcase.safe.activity.R$drawable: int function_greenbutton_normal
+cn.itcase.safe.activity.R$drawable: int function_greenbutton_pressed
+cn.itcase.safe.activity.R$drawable: int function_greenbutton_selector
+cn.itcase.safe.activity.R$drawable: int hcql
+cn.itcase.safe.activity.R$drawable: int heima
+cn.itcase.safe.activity.R$drawable: int home_item_selector
+cn.itcase.safe.activity.R$drawable: int ic_contact
+cn.itcase.safe.activity.R$drawable: int ic_delete_normal
+cn.itcase.safe.activity.R$drawable: int ic_delete_pressed
+cn.itcase.safe.activity.R$drawable: int ic_info
+cn.itcase.safe.activity.R$drawable: int ic_launcher
+cn.itcase.safe.activity.R$drawable: int ic_launcher1
+cn.itcase.safe.activity.R$drawable: int ic_menu_add_normal
+cn.itcase.safe.activity.R$drawable: int ic_menu_add_pressed
+cn.itcase.safe.activity.R$drawable: int ic_open
+cn.itcase.safe.activity.R$drawable: int ic_selected
+cn.itcase.safe.activity.R$drawable: int ic_share
+cn.itcase.safe.activity.R$drawable: int ic_uninstall
+cn.itcase.safe.activity.R$drawable: int item_appprocess_btn
+cn.itcase.safe.activity.R$drawable: int item_lock_selector
+cn.itcase.safe.activity.R$drawable: int item_unlock_selector
+cn.itcase.safe.activity.R$drawable: int jcgl
+cn.itcase.safe.activity.R$drawable: int last_normal
+cn.itcase.safe.activity.R$drawable: int last_pressed
+cn.itcase.safe.activity.R$drawable: int list_button_clean_default
+cn.itcase.safe.activity.R$drawable: int list_button_clean_pressed
+cn.itcase.safe.activity.R$drawable: int list_button_lock_default
+cn.itcase.safe.activity.R$drawable: int list_button_lock_pressed
+cn.itcase.safe.activity.R$drawable: int list_button_unlock_default
+cn.itcase.safe.activity.R$drawable: int list_button_unlock_pressed
+cn.itcase.safe.activity.R$drawable: int lltj
+cn.itcase.safe.activity.R$drawable: int loading
+cn.itcase.safe.activity.R$drawable: int location
+cn.itcase.safe.activity.R$drawable: int lock
+cn.itcase.safe.activity.R$drawable: int lock_selectl
+cn.itcase.safe.activity.R$drawable: int lock_selectl_normal
+cn.itcase.safe.activity.R$drawable: int main_icon
+cn.itcase.safe.activity.R$drawable: int main_icon_36
+cn.itcase.safe.activity.R$drawable: int middle_normal
+cn.itcase.safe.activity.R$drawable: int middle_pressed
+cn.itcase.safe.activity.R$drawable: int myprogress
+cn.itcase.safe.activity.R$drawable: int mytoast_normal
+cn.itcase.safe.activity.R$drawable: int next
+cn.itcase.safe.activity.R$drawable: int off
+cn.itcase.safe.activity.R$drawable: int on
+cn.itcase.safe.activity.R$drawable: int pop_bg
+cn.itcase.safe.activity.R$drawable: int pop_bg_2
+cn.itcase.safe.activity.R$drawable: int pre
+cn.itcase.safe.activity.R$drawable: int process_primary_selector
+cn.itcase.safe.activity.R$drawable: int progress_loading
+cn.itcase.safe.activity.R$drawable: int rjgj
+cn.itcase.safe.activity.R$drawable: int scan_bg
+cn.itcase.safe.activity.R$drawable: int scan_line
+cn.itcase.safe.activity.R$drawable: int seting_first_selector
+cn.itcase.safe.activity.R$drawable: int seting_last_selector
+cn.itcase.safe.activity.R$drawable: int seting_middle_selector
+cn.itcase.safe.activity.R$drawable: int setting
+cn.itcase.safe.activity.R$drawable: int setting_normal
+cn.itcase.safe.activity.R$drawable: int setting_pressed
+cn.itcase.safe.activity.R$drawable: int setting_selector
+cn.itcase.safe.activity.R$drawable: int setup_select
+cn.itcase.safe.activity.R$drawable: int sjfd
+cn.itcase.safe.activity.R$drawable: int sjsd
+cn.itcase.safe.activity.R$drawable: int splash
+cn.itcase.safe.activity.R$drawable: int srlj
+cn.itcase.safe.activity.R$drawable: int step_1
+cn.itcase.safe.activity.R$drawable: int step_2
+cn.itcase.safe.activity.R$drawable: int step_3
+cn.itcase.safe.activity.R$drawable: int step_4
+cn.itcase.safe.activity.R$drawable: int step_5
+cn.itcase.safe.activity.R$drawable: int szzx
+cn.itcase.safe.activity.R$drawable: int toast_address_blue
+cn.itcase.safe.activity.R$drawable: int toast_address_gray
+cn.itcase.safe.activity.R$drawable: int toast_address_green
+cn.itcase.safe.activity.R$drawable: int toast_address_normal
+cn.itcase.safe.activity.R$drawable: int toast_address_orange
+cn.itcase.safe.activity.R$drawable: int unlock
+cn.itcase.safe.activity.R$drawable: int unlock_selectl
+cn.itcase.safe.activity.R$drawable: int unlock_selectl_normal
+cn.itcase.safe.activity.R$drawable: int widget_bg_portrait
+cn.itcase.safe.activity.R$drawable: int widget_bg_portrait_child
+cn.itcase.safe.activity.R$drawable: int widget_bg_portrait_child_divider
+cn.itcase.safe.activity.R$id: int action_settings
+cn.itcase.safe.activity.R$id: int app_item_pro_appinfo
+cn.itcase.safe.activity.R$id: int app_item_pro_open
+cn.itcase.safe.activity.R$id: int app_item_pro_share
+cn.itcase.safe.activity.R$id: int app_item_pro_uninstall
+cn.itcase.safe.activity.R$id: int app_loading
+cn.itcase.safe.activity.R$id: int app_lock_loading
+cn.itcase.safe.activity.R$id: int app_lock_lv
+cn.itcase.safe.activity.R$id: int app_lock_sp_icon
+cn.itcase.safe.activity.R$id: int app_lock_sp_intext
+cn.itcase.safe.activity.R$id: int app_lock_sp_name
+cn.itcase.safe.activity.R$id: int app_unlock_lv
+cn.itcase.safe.activity.R$id: int applock_lock_choice
+cn.itcase.safe.activity.R$id: int appmanager_lv
+cn.itcase.safe.activity.R$id: int appmanager_rom
+cn.itcase.safe.activity.R$id: int appmanager_sd
+cn.itcase.safe.activity.R$id: int black_btn_cancel
+cn.itcase.safe.activity.R$id: int black_btn_save
+cn.itcase.safe.activity.R$id: int black_tv_title
+cn.itcase.safe.activity.R$id: int btn_clear
+cn.itcase.safe.activity.R$id: int cacheClear_btn
+cn.itcase.safe.activity.R$id: int cache_btn_scan
+cn.itcase.safe.activity.R$id: int cache_iv_icon
+cn.itcase.safe.activity.R$id: int cache_iv_icon_line
+cn.itcase.safe.activity.R$id: int cache_ll
+cn.itcase.safe.activity.R$id: int cache_lv
+cn.itcase.safe.activity.R$id: int cache_pro
+cn.itcase.safe.activity.R$id: int cache_rl
+cn.itcase.safe.activity.R$id: int cache_tv_momory
+cn.itcase.safe.activity.R$id: int cache_tv_name
+cn.itcase.safe.activity.R$id: int cache_tv_scan_desc
+cn.itcase.safe.activity.R$id: int callsms_iv
+cn.itcase.safe.activity.R$id: int callsms_iv_item
+cn.itcase.safe.activity.R$id: int callsms_iv_item_phoneNumer
+cn.itcase.safe.activity.R$id: int callsms_iv_item_type
+cn.itcase.safe.activity.R$id: int callsms_lv
+cn.itcase.safe.activity.R$id: int cassfe_et_phenum
+cn.itcase.safe.activity.R$id: int cassfe_rb_all
+cn.itcase.safe.activity.R$id: int cassfe_rb_phone
+cn.itcase.safe.activity.R$id: int cassfe_rb_sms
+cn.itcase.safe.activity.R$id: int cassfe_rg
+cn.itcase.safe.activity.R$id: int common_bt
+cn.itcase.safe.activity.R$id: int common_elv
+cn.itcase.safe.activity.R$id: int common_et_number
+cn.itcase.safe.activity.R$id: int common_siv_query
+cn.itcase.safe.activity.R$id: int common_siv_sms_recovery
+cn.itcase.safe.activity.R$id: int common_tv
+cn.itcase.safe.activity.R$id: int comutils_op_lock1
+cn.itcase.safe.activity.R$id: int comutils_op_lock2
+cn.itcase.safe.activity.R$id: int comutils_siv_app_lock
+cn.itcase.safe.activity.R$id: int comutils_siv_inquiry
+cn.itcase.safe.activity.R$id: int comutils_siv_sms_backups
+cn.itcase.safe.activity.R$id: int con_iv
+cn.itcase.safe.activity.R$id: int con_tv_name
+cn.itcase.safe.activity.R$id: int con_tv_phonenum
+cn.itcase.safe.activity.R$id: int contact_lv
+cn.itcase.safe.activity.R$id: int css_iv_empty
+cn.itcase.safe.activity.R$id: int css_loading
+cn.itcase.safe.activity.R$id: int da
+cn.itcase.safe.activity.R$id: int dialog_btn_cancel
+cn.itcase.safe.activity.R$id: int dialog_btn_ok
+cn.itcase.safe.activity.R$id: int dialog_iv_icon
+cn.itcase.safe.activity.R$id: int dialog_iv_isselect
+cn.itcase.safe.activity.R$id: int dialog_lv
+cn.itcase.safe.activity.R$id: int dialog_tv_confirm
+cn.itcase.safe.activity.R$id: int dialog_tv_pwd
+cn.itcase.safe.activity.R$id: int dialog_tv_title
+cn.itcase.safe.activity.R$id: int first
+cn.itcase.safe.activity.R$id: int home_gridview
+cn.itcase.safe.activity.R$id: int home_iv_logo
+cn.itcase.safe.activity.R$id: int item_app_iv_icon
+cn.itcase.safe.activity.R$id: int item_app_ll
+cn.itcase.safe.activity.R$id: int item_app_tv_appname
+cn.itcase.safe.activity.R$id: int item_app_tv_appsize
+cn.itcase.safe.activity.R$id: int item_app_tv_memory
+cn.itcase.safe.activity.R$id: int item_applock_iv_icon
+cn.itcase.safe.activity.R$id: int item_applock_iv_lock_
+cn.itcase.safe.activity.R$id: int item_applock_tv_name
+cn.itcase.safe.activity.R$id: int item_cache_iv_clear
+cn.itcase.safe.activity.R$id: int item_cache_iv_icon
+cn.itcase.safe.activity.R$id: int item_cache_tv_cache
+cn.itcase.safe.activity.R$id: int item_cache_tv_name
+cn.itcase.safe.activity.R$id: int item_home_iv_icon
+cn.itcase.safe.activity.R$id: int item_home_tv_desc
+cn.itcase.safe.activity.R$id: int item_home_tv_title
+cn.itcase.safe.activity.R$id: int item_lock
+cn.itcase.safe.activity.R$id: int item_promam_cb_click
+cn.itcase.safe.activity.R$id: int item_promam_iv_icon
+cn.itcase.safe.activity.R$id: int item_proman_tv_appname
+cn.itcase.safe.activity.R$id: int item_proman_tv_momory
+cn.itcase.safe.activity.R$id: int item_traffic_iv_icon
+cn.itcase.safe.activity.R$id: int item_traffic_ll
+cn.itcase.safe.activity.R$id: int item_traffic_tv_name
+cn.itcase.safe.activity.R$id: int item_traffic_tv_rcv
+cn.itcase.safe.activity.R$id: int item_traffic_tv_snd
+cn.itcase.safe.activity.R$id: int item_unlock
+cn.itcase.safe.activity.R$id: int item_virus_iv_icon
+cn.itcase.safe.activity.R$id: int item_virus_tv_name
+cn.itcase.safe.activity.R$id: int item_virus_tv_virus
+cn.itcase.safe.activity.R$id: int last
+cn.itcase.safe.activity.R$id: int lock_tv_title
+cn.itcase.safe.activity.R$id: int middle
+cn.itcase.safe.activity.R$id: int mytoast_iv
+cn.itcase.safe.activity.R$id: int mytoast_title
+cn.itcase.safe.activity.R$id: int proMan_loading
+cn.itcase.safe.activity.R$id: int proMan_lv
+cn.itcase.safe.activity.R$id: int pro_content
+cn.itcase.safe.activity.R$id: int pro_drawer
+cn.itcase.safe.activity.R$id: int pro_drawer_arr1
+cn.itcase.safe.activity.R$id: int pro_drawer_arr2
+cn.itcase.safe.activity.R$id: int pro_handler
+cn.itcase.safe.activity.R$id: int pro_siv_autoclear
+cn.itcase.safe.activity.R$id: int pro_siv_systPro
+cn.itcase.safe.activity.R$id: int process_count
+cn.itcase.safe.activity.R$id: int process_memory
+cn.itcase.safe.activity.R$id: int processmanager_count
+cn.itcase.safe.activity.R$id: int processmanager_memory
+cn.itcase.safe.activity.R$id: int progress_endale
+cn.itcase.safe.activity.R$id: int progress_pro
+cn.itcase.safe.activity.R$id: int progress_title
+cn.itcase.safe.activity.R$id: int progress_tv_able
+cn.itcase.safe.activity.R$id: int setfin_iv_safeicon
+cn.itcase.safe.activity.R$id: int setfin_safeNum
+cn.itcase.safe.activity.R$id: int setip5_cb
+cn.itcase.safe.activity.R$id: int setp4_lv_admin
+cn.itcase.safe.activity.R$id: int setting_siv_callSmsSafe
+cn.itcase.safe.activity.R$id: int setting_siv_update
+cn.itcase.safe.activity.R$id: int setting_siv_viewbelong
+cn.itcase.safe.activity.R$id: int setting_siv_viewstyle
+cn.itcase.safe.activity.R$id: int setup2_iv_lock
+cn.itcase.safe.activity.R$id: int setup3_number
+cn.itcase.safe.activity.R$id: int setupfind_tv
+cn.itcase.safe.activity.R$id: int splash_tv_version
+cn.itcase.safe.activity.R$id: int traffic_loading
+cn.itcase.safe.activity.R$id: int traffic_lv
+cn.itcase.safe.activity.R$id: int view_iv_toggle
+cn.itcase.safe.activity.R$id: int view_tv_title
+cn.itcase.safe.activity.R$id: int virus_btn_rescan
+cn.itcase.safe.activity.R$id: int virus_circle_progress
+cn.itcase.safe.activity.R$id: int virus_iv_animation
+cn.itcase.safe.activity.R$id: int virus_ll
+cn.itcase.safe.activity.R$id: int virus_lv
+cn.itcase.safe.activity.R$id: int virus_rl
+cn.itcase.safe.activity.R$id: int virus_rl_iv
+cn.itcase.safe.activity.R$id: int virus_tv_name
+cn.itcase.safe.activity.R$id: int virus_tv_safetitle
+cn.itcase.safe.activity.R$interpolator: int accelerate_cubic
+cn.itcase.safe.activity.R$interpolator: int accelerate_quint
+cn.itcase.safe.activity.R$interpolator: int anticipate
+cn.itcase.safe.activity.R$interpolator: int decelerate_cubic
+cn.itcase.safe.activity.R$interpolator: int decelerate_quint
+cn.itcase.safe.activity.R$interpolator: int overshoot
+cn.itcase.safe.activity.R$layout: int activity_antivirus
+cn.itcase.safe.activity.R$layout: int activity_appamager_lock
+cn.itcase.safe.activity.R$layout: int activity_appmanager
+cn.itcase.safe.activity.R$layout: int activity_blacklist
+cn.itcase.safe.activity.R$layout: int activity_cacheclear
+cn.itcase.safe.activity.R$layout: int activity_callsms_safe
+cn.itcase.safe.activity.R$layout: int activity_commonutils
+cn.itcase.safe.activity.R$layout: int activity_home
+cn.itcase.safe.activity.R$layout: int activity_inquirynumber
+cn.itcase.safe.activity.R$layout: int activity_lockappsplash
+cn.itcase.safe.activity.R$layout: int activity_lost_setup1
+cn.itcase.safe.activity.R$layout: int activity_lost_setup2
+cn.itcase.safe.activity.R$layout: int activity_lost_setup3
+cn.itcase.safe.activity.R$layout: int activity_lost_setup4
+cn.itcase.safe.activity.R$layout: int activity_lost_setup5
+cn.itcase.safe.activity.R$layout: int activity_lost_setupfind
+cn.itcase.safe.activity.R$layout: int activity_processmanager
+cn.itcase.safe.activity.R$layout: int activity_setting
+cn.itcase.safe.activity.R$layout: int activity_splash
+cn.itcase.safe.activity.R$layout: int activity_traffic
+cn.itcase.safe.activity.R$layout: int callsmssafe_item
+cn.itcase.safe.activity.R$layout: int cantactactivity
+cn.itcase.safe.activity.R$layout: int commonquerynumber
+cn.itcase.safe.activity.R$layout: int contactitem
+cn.itcase.safe.activity.R$layout: int dialog_address
+cn.itcase.safe.activity.R$layout: int dialog_pwd_enter
+cn.itcase.safe.activity.R$layout: int dialog_pwd_init
+cn.itcase.safe.activity.R$layout: int item_applock_info
+cn.itcase.safe.activity.R$layout: int item_applock_view
+cn.itcase.safe.activity.R$layout: int item_appmanager
+cn.itcase.safe.activity.R$layout: int item_cache_info
+cn.itcase.safe.activity.R$layout: int item_dialog
+cn.itcase.safe.activity.R$layout: int item_home
+cn.itcase.safe.activity.R$layout: int item_processmanager
+cn.itcase.safe.activity.R$layout: int item_traffic
+cn.itcase.safe.activity.R$layout: int item_virus
+cn.itcase.safe.activity.R$layout: int mytoast
+cn.itcase.safe.activity.R$layout: int poput_item_app
+cn.itcase.safe.activity.R$layout: int process_widget
+cn.itcase.safe.activity.R$layout: int progress_item
+cn.itcase.safe.activity.R$layout: int view_setting_item
+cn.itcase.safe.activity.R$layout: int xz
+cn.itcase.safe.activity.R$menu: int main
+cn.itcase.safe.activity.R$raw: int alarm
+cn.itcase.safe.activity.R$string: int accessibility_service_description
+cn.itcase.safe.activity.R$string: int action_settings
+cn.itcase.safe.activity.R$string: int app_name
+cn.itcase.safe.activity.R$string: int crash_dialog_comment_prompt
+cn.itcase.safe.activity.R$string: int crash_dialog_ok_toast
+cn.itcase.safe.activity.R$string: int crash_dialog_text
+cn.itcase.safe.activity.R$string: int crash_dialog_title
+cn.itcase.safe.activity.R$string: int crash_toast_text
+cn.itcase.safe.activity.R$string: int crash_user_email_label
+cn.itcase.safe.activity.R$string: int hello_world
+cn.itcase.safe.activity.R$string: int sample_device_admin
+cn.itcase.safe.activity.R$string: int sample_device_admin_description
+cn.itcase.safe.activity.R$style: int AddressAnimation
+cn.itcase.safe.activity.R$style: int AppBaseTheme
+cn.itcase.safe.activity.R$style: int AppTheme
+cn.itcase.safe.activity.R$style: int MyPopAnimation
+cn.itcase.safe.activity.R$style: int NormalTextStyle
+cn.itcase.safe.activity.R$style: int SetupBtnNextStyle
+cn.itcase.safe.activity.R$style: int SetupBtnPreStyle
+cn.itcase.safe.activity.R$style: int SetupItemTextStyle
+cn.itcase.safe.activity.R$style: int SetupTextStyle
+cn.itcase.safe.activity.R$style: int SetupTitleBarStyle
+cn.itcase.safe.activity.R$style: int TitleBarStyle
+cn.itcase.safe.activity.R$style: int dialogTheme
+cn.itcase.safe.activity.R$style: int myProgressBarStyle
+cn.itcase.safe.activity.R$style: int myProgressBarStyleCache
+cn.itcase.safe.activity.R$style: int setupFindRETitleStyle
+cn.itcase.safe.activity.R$style: int setupFindTitleStyle
+cn.itcase.safe.activity.R$style: int setupTitleStyle
+cn.itcase.safe.activity.R$style: int tatileBarStyle
+cn.itcase.safe.activity.R$style: int widget_text
+cn.itcase.safe.activity.R$styleable: int[] ArcProgress
+cn.itcase.safe.activity.R$styleable: int ArcProgress_arc_angle
+cn.itcase.safe.activity.R$styleable: int ArcProgress_arc_bottom_text
+cn.itcase.safe.activity.R$styleable: int ArcProgress_arc_bottom_text_size
+cn.itcase.safe.activity.R$styleable: int ArcProgress_arc_finished_color
+cn.itcase.safe.activity.R$styleable: int ArcProgress_arc_max
+cn.itcase.safe.activity.R$styleable: int ArcProgress_arc_progress
+cn.itcase.safe.activity.R$styleable: int ArcProgress_arc_stroke_width
+cn.itcase.safe.activity.R$styleable: int ArcProgress_arc_suffix_text
+cn.itcase.safe.activity.R$styleable: int ArcProgress_arc_suffix_text_padding
+cn.itcase.safe.activity.R$styleable: int ArcProgress_arc_suffix_text_size
+cn.itcase.safe.activity.R$styleable: int ArcProgress_arc_text_color
+cn.itcase.safe.activity.R$styleable: int ArcProgress_arc_text_size
+cn.itcase.safe.activity.R$styleable: int ArcProgress_arc_unfinished_color
+cn.itcase.safe.activity.R$styleable: int[] CircleProgress
+cn.itcase.safe.activity.R$styleable: int CircleProgress_circle_finished_color
+cn.itcase.safe.activity.R$styleable: int CircleProgress_circle_max
+cn.itcase.safe.activity.R$styleable: int CircleProgress_circle_prefix_text
+cn.itcase.safe.activity.R$styleable: int CircleProgress_circle_progress
+cn.itcase.safe.activity.R$styleable: int CircleProgress_circle_suffix_text
+cn.itcase.safe.activity.R$styleable: int CircleProgress_circle_text_color
+cn.itcase.safe.activity.R$styleable: int CircleProgress_circle_text_size
+cn.itcase.safe.activity.R$styleable: int CircleProgress_circle_unfinished_color
+cn.itcase.safe.activity.R$styleable: int[] DonutProgress
+cn.itcase.safe.activity.R$styleable: int DonutProgress_donut_background_color
+cn.itcase.safe.activity.R$styleable: int DonutProgress_donut_circle_starting_degree
+cn.itcase.safe.activity.R$styleable: int DonutProgress_donut_finished_color
+cn.itcase.safe.activity.R$styleable: int DonutProgress_donut_finished_stroke_width
+cn.itcase.safe.activity.R$styleable: int DonutProgress_donut_inner_bottom_text
+cn.itcase.safe.activity.R$styleable: int DonutProgress_donut_inner_bottom_text_color
+cn.itcase.safe.activity.R$styleable: int DonutProgress_donut_inner_bottom_text_size
+cn.itcase.safe.activity.R$styleable: int DonutProgress_donut_max
+cn.itcase.safe.activity.R$styleable: int DonutProgress_donut_prefix_text
+cn.itcase.safe.activity.R$styleable: int DonutProgress_donut_progress
+cn.itcase.safe.activity.R$styleable: int DonutProgress_donut_suffix_text
+cn.itcase.safe.activity.R$styleable: int DonutProgress_donut_text
+cn.itcase.safe.activity.R$styleable: int DonutProgress_donut_text_color
+cn.itcase.safe.activity.R$styleable: int DonutProgress_donut_text_size
+cn.itcase.safe.activity.R$styleable: int DonutProgress_donut_unfinished_color
+cn.itcase.safe.activity.R$styleable: int DonutProgress_donut_unfinished_stroke_width
+cn.itcase.safe.activity.R$styleable: int[] SettingItemView
+cn.itcase.safe.activity.R$styleable: int SettingItemView_itbackground
+cn.itcase.safe.activity.R$styleable: int SettingItemView_title
+cn.itcase.safe.activity.R$styleable: int SettingItemView_toggleEnable
+cn.itcase.safe.activity.R$styleable: int[] StickyListHeadersListView
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_cacheColorHint
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_choiceMode
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_clipToPadding
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_divider
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_dividerHeight
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_drawSelectorOnTop
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_fadingEdgeLength
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_fastScrollAlwaysVisible
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_fastScrollEnabled
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_listSelector
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_overScrollMode
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_padding
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_paddingBottom
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_paddingLeft
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_paddingRight
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_paddingTop
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_requiresFadingEdge
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_scrollbarStyle
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_scrollbars
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_scrollingCache
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_stackFromBottom
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_android_transcriptMode
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_hasStickyHeaders
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_isDrawingListUnderStickyHeader
+cn.itcase.safe.activity.R$styleable: int StickyListHeadersListView_stickyListHeadersListViewStyle
+cn.itcase.safe.activity.R$styleable: int[] Themes
+cn.itcase.safe.activity.R$styleable: int Themes_arcProgressStyle
+cn.itcase.safe.activity.R$styleable: int Themes_circleProgressStyle
+cn.itcase.safe.activity.R$styleable: int Themes_donutProgressStyle
+cn.itcase.safe.activity.R$xml: int accessibility_service_config
+cn.itcase.safe.activity.R$xml: int device_admin_sample
+cn.itcase.safe.activity.R$xml: int process_widget_provider
+cn.itcase.safe.activity.SettingActivity
+cn.itcase.safe.activity.SettingActivity: SettingActivity()
+cn.itcase.safe.activity.SplashActivity
+cn.itcase.safe.activity.SplashActivity: SplashActivity()
+cn.itcase.safe.activity.TrafficActivity
+cn.itcase.safe.activity.TrafficActivity: TrafficActivity()
+cn.itcase.safe.receive.AppStyleProcess
+cn.itcase.safe.receive.AppStyleProcess: AppStyleProcess()
+cn.itcase.safe.receive.BootCompleteReceiver
+cn.itcase.safe.receive.BootCompleteReceiver: BootCompleteReceiver()
+cn.itcase.safe.receive.KillProcessReceiver
+cn.itcase.safe.receive.KillProcessReceiver: KillProcessReceiver()
+cn.itcase.safe.receive.SafeAdminReceive
+cn.itcase.safe.receive.SafeAdminReceive: SafeAdminReceive()
+cn.itcase.safe.receive.SmsReceiver
+cn.itcase.safe.receive.SmsReceiver: SmsReceiver()
+cn.itcase.safe.service.AutoClearService
+cn.itcase.safe.service.AutoClearService: AutoClearService()
+cn.itcase.safe.service.CallSmsSafeService
+cn.itcase.safe.service.CallSmsSafeService: CallSmsSafeService()
+cn.itcase.safe.service.DisplyBelongService
+cn.itcase.safe.service.DisplyBelongService: DisplyBelongService()
+cn.itcase.safe.service.GPSService
+cn.itcase.safe.service.GPSService: GPSService()
+cn.itcase.safe.service.OpenLockService2
+cn.itcase.safe.service.OpenLockService2: OpenLockService2()
+cn.itcase.safe.service.UpdataWidgetService
+cn.itcase.safe.service.UpdataWidgetService: UpdataWidgetService()
+cn.itcase.safe.view.AppLockManagerView
+cn.itcase.safe.view.AppLockManagerView: AppLockManagerView(android.content.Context)
+cn.itcase.safe.view.AppLockManagerView: AppLockManagerView(android.content.Context,android.util.AttributeSet)
+cn.itcase.safe.view.FocusedTextView
+cn.itcase.safe.view.FocusedTextView: FocusedTextView(android.content.Context)
+cn.itcase.safe.view.FocusedTextView: FocusedTextView(android.content.Context,android.util.AttributeSet)
+cn.itcase.safe.view.MyProgress
+cn.itcase.safe.view.MyProgress: MyProgress(android.content.Context)
+cn.itcase.safe.view.MyProgress: MyProgress(android.content.Context,android.util.AttributeSet)
+cn.itcase.safe.view.MyProgress: void setTitle(java.lang.String)
+cn.itcase.safe.view.MyProgress: void setAble(java.lang.String)
+cn.itcase.safe.view.MyProgress: void setEnable(java.lang.String)
+cn.itcase.safe.view.MyProgress: void setProgressBar(int)
+cn.itcase.safe.view.SettingItemView
+cn.itcase.safe.view.SettingItemView: SettingItemView(android.content.Context)
+cn.itcase.safe.view.SettingItemView: SettingItemView(android.content.Context,android.util.AttributeSet)
+cn.itcase.safe.view.SettingItemView: void setToggleOn(boolean)
+com.github.lzyzsd.circleprogress.ArcProgress: float getStrokeWidth()
+com.github.lzyzsd.circleprogress.ArcProgress: void setStrokeWidth(float)
+com.github.lzyzsd.circleprogress.ArcProgress: float getSuffixTextSize()
+com.github.lzyzsd.circleprogress.ArcProgress: void setSuffixTextSize(float)
+com.github.lzyzsd.circleprogress.ArcProgress: java.lang.String getBottomText()
+com.github.lzyzsd.circleprogress.ArcProgress: void setBottomText(java.lang.String)
+com.github.lzyzsd.circleprogress.ArcProgress: int getProgress()
+com.github.lzyzsd.circleprogress.ArcProgress: void setProgress(int)
+com.github.lzyzsd.circleprogress.ArcProgress: int getMax()
+com.github.lzyzsd.circleprogress.ArcProgress: void setMax(int)
+com.github.lzyzsd.circleprogress.ArcProgress: float getBottomTextSize()
+com.github.lzyzsd.circleprogress.ArcProgress: void setBottomTextSize(float)
+com.github.lzyzsd.circleprogress.ArcProgress: float getTextSize()
+com.github.lzyzsd.circleprogress.ArcProgress: void setTextSize(float)
+com.github.lzyzsd.circleprogress.ArcProgress: int getTextColor()
+com.github.lzyzsd.circleprogress.ArcProgress: void setTextColor(int)
+com.github.lzyzsd.circleprogress.ArcProgress: int getFinishedStrokeColor()
+com.github.lzyzsd.circleprogress.ArcProgress: void setFinishedStrokeColor(int)
+com.github.lzyzsd.circleprogress.ArcProgress: int getUnfinishedStrokeColor()
+com.github.lzyzsd.circleprogress.ArcProgress: void setUnfinishedStrokeColor(int)
+com.github.lzyzsd.circleprogress.ArcProgress: float getArcAngle()
+com.github.lzyzsd.circleprogress.ArcProgress: void setArcAngle(float)
+com.github.lzyzsd.circleprogress.ArcProgress: java.lang.String getSuffixText()
+com.github.lzyzsd.circleprogress.ArcProgress: void setSuffixText(java.lang.String)
+com.github.lzyzsd.circleprogress.ArcProgress: float getSuffixTextPadding()
+com.github.lzyzsd.circleprogress.ArcProgress: void setSuffixTextPadding(float)
+com.github.lzyzsd.circleprogress.ArcProgress: int getSuggestedMinimumHeight()
+com.github.lzyzsd.circleprogress.ArcProgress: int getSuggestedMinimumWidth()
+com.github.lzyzsd.circleprogress.CircleProgress
+com.github.lzyzsd.circleprogress.CircleProgress: CircleProgress(android.content.Context)
+com.github.lzyzsd.circleprogress.CircleProgress: CircleProgress(android.content.Context,android.util.AttributeSet)
+com.github.lzyzsd.circleprogress.CircleProgress: CircleProgress(android.content.Context,android.util.AttributeSet,int)
+com.github.lzyzsd.circleprogress.CircleProgress: int getProgress()
+com.github.lzyzsd.circleprogress.CircleProgress: void setProgress(int)
+com.github.lzyzsd.circleprogress.CircleProgress: int getMax()
+com.github.lzyzsd.circleprogress.CircleProgress: void setMax(int)
+com.github.lzyzsd.circleprogress.CircleProgress: float getTextSize()
+com.github.lzyzsd.circleprogress.CircleProgress: void setTextSize(float)
+com.github.lzyzsd.circleprogress.CircleProgress: int getTextColor()
+com.github.lzyzsd.circleprogress.CircleProgress: void setTextColor(int)
+com.github.lzyzsd.circleprogress.CircleProgress: int getFinishedColor()
+com.github.lzyzsd.circleprogress.CircleProgress: void setFinishedColor(int)
+com.github.lzyzsd.circleprogress.CircleProgress: int getUnfinishedColor()
+com.github.lzyzsd.circleprogress.CircleProgress: void setUnfinishedColor(int)
+com.github.lzyzsd.circleprogress.CircleProgress: java.lang.String getPrefixText()
+com.github.lzyzsd.circleprogress.CircleProgress: void setPrefixText(java.lang.String)
+com.github.lzyzsd.circleprogress.CircleProgress: java.lang.String getSuffixText()
+com.github.lzyzsd.circleprogress.CircleProgress: void setSuffixText(java.lang.String)
+com.github.lzyzsd.circleprogress.CircleProgress: java.lang.String getDrawText()
+com.github.lzyzsd.circleprogress.CircleProgress: int getSuggestedMinimumHeight()
+com.github.lzyzsd.circleprogress.CircleProgress: int getSuggestedMinimumWidth()
+com.github.lzyzsd.circleprogress.CircleProgress: float getProgressPercentage()
+com.github.lzyzsd.circleprogress.DonutProgress: float getFinishedStrokeWidth()
+com.github.lzyzsd.circleprogress.DonutProgress: void setFinishedStrokeWidth(float)
+com.github.lzyzsd.circleprogress.DonutProgress: float getUnfinishedStrokeWidth()
+com.github.lzyzsd.circleprogress.DonutProgress: void setUnfinishedStrokeWidth(float)
+com.github.lzyzsd.circleprogress.DonutProgress: float getProgressAngle()
+com.github.lzyzsd.circleprogress.DonutProgress: int getProgress()
+com.github.lzyzsd.circleprogress.DonutProgress: void setProgress(int)
+com.github.lzyzsd.circleprogress.DonutProgress: int getMax()
+com.github.lzyzsd.circleprogress.DonutProgress: void setMax(int)
+com.github.lzyzsd.circleprogress.DonutProgress: float getTextSize()
+com.github.lzyzsd.circleprogress.DonutProgress: void setTextSize(float)
+com.github.lzyzsd.circleprogress.DonutProgress: int getTextColor()
+com.github.lzyzsd.circleprogress.DonutProgress: void setTextColor(int)
+com.github.lzyzsd.circleprogress.DonutProgress: int getFinishedStrokeColor()
+com.github.lzyzsd.circleprogress.DonutProgress: void setFinishedStrokeColor(int)
+com.github.lzyzsd.circleprogress.DonutProgress: int getUnfinishedStrokeColor()
+com.github.lzyzsd.circleprogress.DonutProgress: void setUnfinishedStrokeColor(int)
+com.github.lzyzsd.circleprogress.DonutProgress: java.lang.String getText()
+com.github.lzyzsd.circleprogress.DonutProgress: void setText(java.lang.String)
+com.github.lzyzsd.circleprogress.DonutProgress: java.lang.String getSuffixText()
+com.github.lzyzsd.circleprogress.DonutProgress: void setSuffixText(java.lang.String)
+com.github.lzyzsd.circleprogress.DonutProgress: java.lang.String getPrefixText()
+com.github.lzyzsd.circleprogress.DonutProgress: void setPrefixText(java.lang.String)
+com.github.lzyzsd.circleprogress.DonutProgress: int getInnerBackgroundColor()
+com.github.lzyzsd.circleprogress.DonutProgress: void setInnerBackgroundColor(int)
+com.github.lzyzsd.circleprogress.DonutProgress: java.lang.String getInnerBottomText()
+com.github.lzyzsd.circleprogress.DonutProgress: void setInnerBottomText(java.lang.String)
+com.github.lzyzsd.circleprogress.DonutProgress: float getInnerBottomTextSize()
+com.github.lzyzsd.circleprogress.DonutProgress: void setInnerBottomTextSize(float)
+com.github.lzyzsd.circleprogress.DonutProgress: int getInnerBottomTextColor()
+com.github.lzyzsd.circleprogress.DonutProgress: void setInnerBottomTextColor(int)
+com.github.lzyzsd.circleprogress.DonutProgress: int getStartingDegree()
+com.github.lzyzsd.circleprogress.DonutProgress: void setStartingDegree(int)
+com.github.lzyzsd.circleprogress.R$attr: int donut_circle_starting_degree
+com.github.lzyzsd.circleprogress.R$attr: int arc_text_color
+com.github.lzyzsd.circleprogress.R$attr: int donut_inner_bottom_text_size
+com.github.lzyzsd.circleprogress.R$attr: int donut_suffix_text
+com.github.lzyzsd.circleprogress.R$attr: int arc_stroke_width
+com.github.lzyzsd.circleprogress.R$attr: int circle_text_size
+com.github.lzyzsd.circleprogress.R$attr: int donut_text_size
+com.github.lzyzsd.circleprogress.R$attr: int donut_text_color
+com.github.lzyzsd.circleprogress.R$attr: int donut_text
+com.github.lzyzsd.circleprogress.R$attr: int arc_suffix_text_padding
+com.github.lzyzsd.circleprogress.R$attr: int donut_finished_color
+com.github.lzyzsd.circleprogress.R$attr: int donut_progress
+com.github.lzyzsd.circleprogress.R$attr: int arc_suffix_text_size
+com.github.lzyzsd.circleprogress.R$attr: int circle_max
+com.github.lzyzsd.circleprogress.R$attr: int donut_unfinished_color
+com.github.lzyzsd.circleprogress.R$attr: int arc_angle
+com.github.lzyzsd.circleprogress.R$attr: int arc_text_size
+com.github.lzyzsd.circleprogress.R$attr: int donut_inner_bottom_text_color
+com.github.lzyzsd.circleprogress.R$attr: int arc_progress
+com.github.lzyzsd.circleprogress.R$attr: int arc_bottom_text
+com.github.lzyzsd.circleprogress.R$attr: int circle_text_color
+com.github.lzyzsd.circleprogress.R$attr: int circleProgressStyle
+com.github.lzyzsd.circleprogress.R$attr: int donut_unfinished_stroke_width
+com.github.lzyzsd.circleprogress.R$attr: int arcProgressStyle
+com.github.lzyzsd.circleprogress.R$attr: int arc_suffix_text
+com.github.lzyzsd.circleprogress.R$attr: int circle_prefix_text
+com.github.lzyzsd.circleprogress.R$attr: int arc_unfinished_color
+com.github.lzyzsd.circleprogress.R$attr: int donut_background_color
+com.github.lzyzsd.circleprogress.R$attr: int arc_bottom_text_size
+com.github.lzyzsd.circleprogress.R$attr: int donutProgressStyle
+com.github.lzyzsd.circleprogress.R$attr: int donut_finished_stroke_width
+com.github.lzyzsd.circleprogress.R$attr: int arc_max
+com.github.lzyzsd.circleprogress.R$attr: int circle_unfinished_color
+com.github.lzyzsd.circleprogress.R$attr: int donut_max
+com.github.lzyzsd.circleprogress.R$attr: int circle_finished_color
+com.github.lzyzsd.circleprogress.R$attr: int circle_suffix_text
+com.github.lzyzsd.circleprogress.R$attr: int donut_prefix_text
+com.github.lzyzsd.circleprogress.R$attr: int donut_inner_bottom_text
+com.github.lzyzsd.circleprogress.R$attr: int arc_finished_color
+com.github.lzyzsd.circleprogress.R$attr: int circle_progress
+com.github.lzyzsd.circleprogress.R$styleable: int CircleProgress_circle_unfinished_color
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_suffix_text_size
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_inner_bottom_text_size
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_unfinished_color
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_bottom_text_size
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_suffix_text
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_unfinished_stroke_width
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_finished_color
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_background_color
+com.github.lzyzsd.circleprogress.R$styleable: int CircleProgress_circle_progress
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_stroke_width
+com.github.lzyzsd.circleprogress.R$styleable: int[] DonutProgress
+com.github.lzyzsd.circleprogress.R$styleable: int CircleProgress_circle_prefix_text
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_text_size
+com.github.lzyzsd.circleprogress.R$styleable: int CircleProgress_circle_suffix_text
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_angle
+com.github.lzyzsd.circleprogress.R$styleable: int CircleProgress_circle_max
+com.github.lzyzsd.circleprogress.R$styleable: int CircleProgress_circle_finished_color
+com.github.lzyzsd.circleprogress.R$styleable: int CircleProgress_circle_text_size
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_unfinished_color
+com.github.lzyzsd.circleprogress.R$styleable: int[] CircleProgress
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_suffix_text_padding
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_text_size
+com.github.lzyzsd.circleprogress.R$styleable: int Themes_donutProgressStyle
+com.github.lzyzsd.circleprogress.R$styleable: int CircleProgress_circle_text_color
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_finished_stroke_width
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_suffix_text
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_progress
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_text_color
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_progress
+com.github.lzyzsd.circleprogress.R$styleable: int Themes_arcProgressStyle
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_text_color
+com.github.lzyzsd.circleprogress.R$styleable: int[] Themes
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_prefix_text
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_finished_color
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_circle_starting_degree
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_inner_bottom_text_color
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_bottom_text
+com.github.lzyzsd.circleprogress.R$styleable: int[] ArcProgress
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_inner_bottom_text
+com.github.lzyzsd.circleprogress.R$styleable: int Themes_circleProgressStyle
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_text
+com.github.lzyzsd.circleprogress.R$styleable: int DonutProgress_donut_max
+com.github.lzyzsd.circleprogress.R$styleable: int ArcProgress_arc_max
+com.lidroid.xutils.bitmap.callback.BitmapLoadFrom: com.lidroid.xutils.bitmap.callback.BitmapLoadFrom[] values()
+com.lidroid.xutils.bitmap.callback.BitmapLoadFrom: com.lidroid.xutils.bitmap.callback.BitmapLoadFrom valueOf(java.lang.String)
+com.lidroid.xutils.db.sqlite.ColumnDbType: com.lidroid.xutils.db.sqlite.ColumnDbType[] values()
+com.lidroid.xutils.db.sqlite.ColumnDbType: com.lidroid.xutils.db.sqlite.ColumnDbType valueOf(java.lang.String)
+com.lidroid.xutils.http.HttpHandler$State: com.lidroid.xutils.http.HttpHandler$State[] values()
+com.lidroid.xutils.http.HttpHandler$State: com.lidroid.xutils.http.HttpHandler$State valueOf(java.lang.String)
+com.lidroid.xutils.http.client.HttpRequest$HttpMethod: com.lidroid.xutils.http.client.HttpRequest$HttpMethod[] values()
+com.lidroid.xutils.http.client.HttpRequest$HttpMethod: com.lidroid.xutils.http.client.HttpRequest$HttpMethod valueOf(java.lang.String)
+com.lidroid.xutils.http.client.multipart.HttpMultipartMode: com.lidroid.xutils.http.client.multipart.HttpMultipartMode[] values()
+com.lidroid.xutils.http.client.multipart.HttpMultipartMode: com.lidroid.xutils.http.client.multipart.HttpMultipartMode valueOf(java.lang.String)
+com.lidroid.xutils.task.Priority: com.lidroid.xutils.task.Priority[] values()
+com.lidroid.xutils.task.Priority: com.lidroid.xutils.task.Priority valueOf(java.lang.String)
+com.lidroid.xutils.view.ResType: com.lidroid.xutils.view.ResType[] values()
+com.lidroid.xutils.view.ResType: com.lidroid.xutils.view.ResType valueOf(java.lang.String)
+org.acra.ACRA
+org.acra.ACRA: boolean DEV_LOGGING
+org.acra.ACRA: java.lang.String LOG_TAG
+org.acra.ACRA: org.acra.log.ACRALog log
+org.acra.ACRA: java.lang.String PREF_DISABLE_ACRA
+org.acra.ACRA: java.lang.String PREF_ENABLE_ACRA
+org.acra.ACRA: java.lang.String PREF_ENABLE_SYSTEM_LOGS
+org.acra.ACRA: java.lang.String PREF_ENABLE_DEVICE_ID
+org.acra.ACRA: java.lang.String PREF_USER_EMAIL_ADDRESS
+org.acra.ACRA: java.lang.String PREF_ALWAYS_ACCEPT
+org.acra.ACRA: java.lang.String PREF_LAST_VERSION_NR
+org.acra.ACRA: android.app.Application mApplication
+org.acra.ACRA: org.acra.ErrorReporter errorReporterSingleton
+org.acra.ACRA: android.content.SharedPreferences$OnSharedPreferenceChangeListener mPrefListener
+org.acra.ACRA: org.acra.ACRAConfiguration configProxy
+org.acra.ACRA: ACRA()
+org.acra.ACRA: void init(android.app.Application)
+org.acra.ACRA: void init(android.app.Application,org.acra.ACRAConfiguration)
+org.acra.ACRA: void init(android.app.Application,org.acra.ACRAConfiguration,boolean)
+org.acra.ACRA: org.acra.ErrorReporter getErrorReporter()
+org.acra.ACRA: boolean shouldDisableACRA(android.content.SharedPreferences)
+org.acra.ACRA: void checkCrashResources(org.acra.annotation.ReportsCrashes)
+org.acra.ACRA: android.content.SharedPreferences getACRASharedPreferences()
+org.acra.ACRA: org.acra.ACRAConfiguration getConfig()
+org.acra.ACRA: void setConfig(org.acra.ACRAConfiguration)
+org.acra.ACRA: org.acra.ACRAConfiguration getNewDefaultConfig(android.app.Application)
+org.acra.ACRA: boolean isDebuggable()
+org.acra.ACRA: android.app.Application getApplication()
+org.acra.ACRA: void setLog(org.acra.log.ACRALog)
+org.acra.ACRA: boolean access$000(android.content.SharedPreferences)
+org.acra.ACRA: void <clinit>()
+org.acra.ACRA$1
+org.acra.ACRA$1: ACRA$1()
+org.acra.ACRA$1: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)
+org.acra.ACRA$2
+org.acra.ACRA$2: int[] $SwitchMap$org$acra$ReportingInteractionMode
+org.acra.ACRA$2: void <clinit>()
+org.acra.ACRAConfiguration
+org.acra.ACRAConfiguration: org.acra.util.ReflectionHelper reflectionHelper
+org.acra.ACRAConfiguration: java.lang.String[] mAdditionalDropboxTags
+org.acra.ACRAConfiguration: java.lang.String[] mAdditionalSharedPreferences
+org.acra.ACRAConfiguration: java.lang.Integer mConnectionTimeout
+org.acra.ACRAConfiguration: org.acra.ReportField[] mCustomReportContent
+org.acra.ACRAConfiguration: java.lang.Boolean mDeleteUnapprovedReportsOnApplicationStart
+org.acra.ACRAConfiguration: java.lang.Boolean mDeleteOldUnsentReportsOnApplicationStart
+org.acra.ACRAConfiguration: java.lang.Integer mDropboxCollectionMinutes
+org.acra.ACRAConfiguration: java.lang.Boolean mForceCloseDialogAfterToast
+org.acra.ACRAConfiguration: java.lang.String mFormUri
+org.acra.ACRAConfiguration: java.lang.String mFormUriBasicAuthLogin
+org.acra.ACRAConfiguration: java.lang.String mFormUriBasicAuthPassword
+org.acra.ACRAConfiguration: java.lang.Boolean mIncludeDropboxSystemTags
+org.acra.ACRAConfiguration: java.lang.String[] mLogcatArguments
+org.acra.ACRAConfiguration: java.lang.String mMailTo
+org.acra.ACRAConfiguration: java.lang.Integer mMaxNumberOfRequestRetries
+org.acra.ACRAConfiguration: org.acra.ReportingInteractionMode mMode
+org.acra.ACRAConfiguration: org.acra.annotation.ReportsCrashes mReportsCrashes
+org.acra.ACRAConfiguration: java.lang.Class mReportDialogClass
+org.acra.ACRAConfiguration: java.lang.Integer mResDialogPositiveButtonText
+org.acra.ACRAConfiguration: java.lang.Integer mResDialogNegativeButtonText
+org.acra.ACRAConfiguration: java.lang.Integer mResDialogCommentPrompt
+org.acra.ACRAConfiguration: java.lang.Integer mResDialogEmailPrompt
+org.acra.ACRAConfiguration: java.lang.Integer mResDialogIcon
+org.acra.ACRAConfiguration: java.lang.Integer mResDialogOkToast
+org.acra.ACRAConfiguration: java.lang.Integer mResDialogText
+org.acra.ACRAConfiguration: java.lang.Integer mResDialogTitle
+org.acra.ACRAConfiguration: java.lang.Integer mResNotifIcon
+org.acra.ACRAConfiguration: java.lang.Integer mResNotifText
+org.acra.ACRAConfiguration: java.lang.Integer mResNotifTickerText
+org.acra.ACRAConfiguration: java.lang.Integer mResNotifTitle
+org.acra.ACRAConfiguration: java.lang.Integer mResToastText
+org.acra.ACRAConfiguration: java.lang.Integer mSharedPreferenceMode
+org.acra.ACRAConfiguration: java.lang.String mSharedPreferenceName
+org.acra.ACRAConfiguration: java.lang.Integer mSocketTimeout
+org.acra.ACRAConfiguration: java.lang.Boolean mLogcatFilterByPid
+org.acra.ACRAConfiguration: java.lang.Boolean mSendReportsInDevMode
+org.acra.ACRAConfiguration: java.lang.Boolean mSendReportsAtShutdown
+org.acra.ACRAConfiguration: java.lang.String[] mExcludeMatchingSharedPreferencesKeys
+org.acra.ACRAConfiguration: java.lang.String[] mExcludeMatchingSettingsKeys
+org.acra.ACRAConfiguration: java.lang.Class mBuildConfigClass
+org.acra.ACRAConfiguration: java.lang.String mApplicationLogFile
+org.acra.ACRAConfiguration: java.lang.Integer mApplicationLogFileLines
+org.acra.ACRAConfiguration: java.lang.Boolean mDisableSSLCertValidation
+org.acra.ACRAConfiguration: java.lang.String mHttpsSocketFactoryFactoryClass
+org.acra.ACRAConfiguration: org.acra.util.HttpsSocketFactoryFactory mHttpsSocketFactoryFactory
+org.acra.ACRAConfiguration: org.acra.sender.HttpSender$Method mHttpMethod
+org.acra.ACRAConfiguration: org.acra.sender.HttpSender$Type mReportType
+org.acra.ACRAConfiguration: java.util.Map mHttpHeaders
+org.acra.ACRAConfiguration: java.security.KeyStore mKeyStore
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setHttpHeaders(java.util.Map)
+org.acra.ACRAConfiguration: java.util.Map getHttpHeaders()
+org.acra.ACRAConfiguration: java.util.List getReportFields()
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setAdditionalDropboxTags(java.lang.String[])
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setAdditionalSharedPreferences(java.lang.String[])
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setConnectionTimeout(java.lang.Integer)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setCustomReportContent(org.acra.ReportField[])
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setDeleteUnapprovedReportsOnApplicationStart(java.lang.Boolean)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setDeleteOldUnsentReportsOnApplicationStart(java.lang.Boolean)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setDropboxCollectionMinutes(java.lang.Integer)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setForceCloseDialogAfterToast(java.lang.Boolean)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setFormUri(java.lang.String)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setFormUriBasicAuthLogin(java.lang.String)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setFormUriBasicAuthPassword(java.lang.String)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setIncludeDropboxSystemTags(java.lang.Boolean)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setLogcatArguments(java.lang.String[])
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setMailTo(java.lang.String)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setMaxNumberOfRequestRetries(java.lang.Integer)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setMode(org.acra.ReportingInteractionMode)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setResDialogPositiveButtonText(int)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setResDialogNegativeButtonText(int)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setReportDialogClass(java.lang.Class)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setResDialogCommentPrompt(int)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setResDialogEmailPrompt(int)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setResDialogIcon(int)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setResDialogOkToast(int)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setResDialogText(int)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setResDialogTitle(int)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setResNotifIcon(int)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setResNotifText(int)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setResNotifTickerText(int)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setResNotifTitle(int)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setResToastText(int)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setSharedPreferenceMode(java.lang.Integer)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setSharedPreferenceName(java.lang.String)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setSocketTimeout(java.lang.Integer)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setLogcatFilterByPid(java.lang.Boolean)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setSendReportsInDevMode(java.lang.Boolean)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setSendReportsAtShutdown(java.lang.Boolean)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setExcludeMatchingSharedPreferencesKeys(java.lang.String[])
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setExcludeMatchingSettingsKeys(java.lang.String[])
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setBuildConfigClass(java.lang.Class)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setApplicationLogFile(java.lang.String)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setApplicationLogFileLines(int)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setDisableSSLCertValidation(boolean)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setHttpMethod(org.acra.sender.HttpSender$Method)
+org.acra.ACRAConfiguration: org.acra.ACRAConfiguration setReportType(org.acra.sender.HttpSender$Type)
+org.acra.ACRAConfiguration: void setKeyStore(java.security.KeyStore)
+org.acra.ACRAConfiguration: ACRAConfiguration(org.acra.annotation.ReportsCrashes)
+org.acra.ACRAConfiguration: ACRAConfiguration()
+org.acra.ACRAConfiguration: java.lang.String[] additionalDropBoxTags()
+org.acra.ACRAConfiguration: java.lang.String[] additionalSharedPreferences()
+org.acra.ACRAConfiguration: java.lang.Class annotationType()
+org.acra.ACRAConfiguration: int connectionTimeout()
+org.acra.ACRAConfiguration: org.acra.ReportField[] customReportContent()
+org.acra.ACRAConfiguration: boolean deleteUnapprovedReportsOnApplicationStart()
+org.acra.ACRAConfiguration: boolean deleteOldUnsentReportsOnApplicationStart()
+org.acra.ACRAConfiguration: int dropboxCollectionMinutes()
+org.acra.ACRAConfiguration: boolean forceCloseDialogAfterToast()
+org.acra.ACRAConfiguration: java.lang.String formUri()
+org.acra.ACRAConfiguration: java.lang.String formUriBasicAuthLogin()
+org.acra.ACRAConfiguration: java.lang.String formUriBasicAuthPassword()
+org.acra.ACRAConfiguration: boolean includeDropBoxSystemTags()
+org.acra.ACRAConfiguration: java.lang.String[] logcatArguments()
+org.acra.ACRAConfiguration: java.lang.String mailTo()
+org.acra.ACRAConfiguration: int maxNumberOfRequestRetries()
+org.acra.ACRAConfiguration: org.acra.ReportingInteractionMode mode()
+org.acra.ACRAConfiguration: int resDialogPositiveButtonText()
+org.acra.ACRAConfiguration: int resDialogNegativeButtonText()
+org.acra.ACRAConfiguration: int resDialogCommentPrompt()
+org.acra.ACRAConfiguration: int resDialogEmailPrompt()
+org.acra.ACRAConfiguration: int resDialogIcon()
+org.acra.ACRAConfiguration: int resDialogOkToast()
+org.acra.ACRAConfiguration: int resDialogText()
+org.acra.ACRAConfiguration: int resDialogTitle()
+org.acra.ACRAConfiguration: int resNotifIcon()
+org.acra.ACRAConfiguration: int resNotifText()
+org.acra.ACRAConfiguration: int resNotifTickerText()
+org.acra.ACRAConfiguration: int resNotifTitle()
+org.acra.ACRAConfiguration: int resToastText()
+org.acra.ACRAConfiguration: int sharedPreferencesMode()
+org.acra.ACRAConfiguration: java.lang.String sharedPreferencesName()
+org.acra.ACRAConfiguration: int socketTimeout()
+org.acra.ACRAConfiguration: boolean logcatFilterByPid()
+org.acra.ACRAConfiguration: boolean sendReportsInDevMode()
+org.acra.ACRAConfiguration: boolean sendReportsAtShutdown()
+org.acra.ACRAConfiguration: java.lang.String[] excludeMatchingSharedPreferencesKeys()
+org.acra.ACRAConfiguration: java.lang.String[] excludeMatchingSettingsKeys()
+org.acra.ACRAConfiguration: java.lang.Class buildConfigClass()
+org.acra.ACRAConfiguration: java.lang.String applicationLogFile()
+org.acra.ACRAConfiguration: int applicationLogFileLines()
+org.acra.ACRAConfiguration: boolean disableSSLCertValidation()
+org.acra.ACRAConfiguration: java.lang.String httpsSocketFactoryFactoryClass()
+org.acra.ACRAConfiguration: java.lang.Class reportDialogClass()
+org.acra.ACRAConfiguration: void setHttpsSocketFactoryFactory(org.acra.util.HttpsSocketFactoryFactory)
+org.acra.ACRAConfiguration: org.acra.util.HttpsSocketFactoryFactory getHttpSocketFactoryFactory()
+org.acra.ACRAConfiguration: org.acra.sender.HttpSender$Method httpMethod()
+org.acra.ACRAConfiguration: org.acra.sender.HttpSender$Type reportType()
+org.acra.ACRAConfiguration: java.security.KeyStore keyStore()
+org.acra.ACRAConfiguration: boolean isNull(java.lang.String)
+org.acra.ACRAConfigurationException
+org.acra.ACRAConfigurationException: long serialVersionUID
+org.acra.ACRAConfigurationException: ACRAConfigurationException(java.lang.String)
+org.acra.ACRAConstants
+org.acra.ACRAConstants: java.lang.String REPORTFILE_EXTENSION
+org.acra.ACRAConstants: java.lang.String APPROVED_SUFFIX
+org.acra.ACRAConstants: java.lang.String SILENT_SUFFIX
+org.acra.ACRAConstants: int MAX_SEND_REPORTS
+org.acra.ACRAConstants: java.lang.String EXTRA_REPORT_FILE_NAME
+org.acra.ACRAConstants: java.lang.String EXTRA_REPORT_EXCEPTION
+org.acra.ACRAConstants: java.lang.String EXTRA_FORCE_CANCEL
+org.acra.ACRAConstants: int NOTIF_CRASH_ID
+org.acra.ACRAConstants: int TOAST_WAIT_DURATION
+org.acra.ACRAConstants: java.lang.String NULL_VALUE
+org.acra.ACRAConstants: boolean DEFAULT_FORCE_CLOSE_DIALOG_AFTER_TOAST
+org.acra.ACRAConstants: int DEFAULT_MAX_NUMBER_OF_REQUEST_RETRIES
+org.acra.ACRAConstants: int DEFAULT_SOCKET_TIMEOUT
+org.acra.ACRAConstants: int DEFAULT_CONNECTION_TIMEOUT
+org.acra.ACRAConstants: boolean DEFAULT_DELETE_UNAPPROVED_REPORTS_ON_APPLICATION_START
+org.acra.ACRAConstants: boolean DEFAULT_DELETE_OLD_UNSENT_REPORTS_ON_APPLICATION_START
+org.acra.ACRAConstants: int DEFAULT_DROPBOX_COLLECTION_MINUTES
+org.acra.ACRAConstants: boolean DEFAULT_INCLUDE_DROPBOX_SYSTEM_TAGS
+org.acra.ACRAConstants: int DEFAULT_SHARED_PREFERENCES_MODE
+org.acra.ACRAConstants: int DEFAULT_NOTIFICATION_ICON
+org.acra.ACRAConstants: int DEFAULT_DIALOG_ICON
+org.acra.ACRAConstants: int DEFAULT_DIALOG_POSITIVE_BUTTON_TEXT
+org.acra.ACRAConstants: int DEFAULT_DIALOG_NEGATIVE_BUTTON_TEXT
+org.acra.ACRAConstants: int DEFAULT_RES_VALUE
+org.acra.ACRAConstants: java.lang.String DEFAULT_STRING_VALUE
+org.acra.ACRAConstants: int DEFAULT_LOGCAT_LINES
+org.acra.ACRAConstants: int DEFAULT_BUFFER_SIZE_IN_BYTES
+org.acra.ACRAConstants: boolean DEFAULT_LOGCAT_FILTER_BY_PID
+org.acra.ACRAConstants: boolean DEFAULT_SEND_REPORTS_IN_DEV_MODE
+org.acra.ACRAConstants: boolean DEFAULT_SEND_REPORTS_AT_SHUTDOWN
+org.acra.ACRAConstants: java.lang.String DEFAULT_APPLICATION_LOGFILE
+org.acra.ACRAConstants: int DEFAULT_APPLICATION_LOGFILE_LINES
+org.acra.ACRAConstants: boolean DEFAULT_DISABLE_SSL_CERT_VALIDATION
+org.acra.ACRAConstants: java.lang.String DEFAULT_HTTP_SOCKET_FACTORY_FACTORY_CLASS
+org.acra.ACRAConstants: org.acra.ReportField[] DEFAULT_MAIL_REPORT_FIELDS
+org.acra.ACRAConstants: org.acra.ReportField[] DEFAULT_REPORT_FIELDS
+org.acra.ACRAConstants: java.lang.String DATE_TIME_FORMAT_STRING
+org.acra.ACRAConstants: ACRAConstants()
+org.acra.ACRAConstants: void <clinit>()
+org.acra.BaseCrashReportDialog
+org.acra.BaseCrashReportDialog: java.lang.String mReportFileName
+org.acra.BaseCrashReportDialog: BaseCrashReportDialog()
+org.acra.BaseCrashReportDialog: void onCreate(android.os.Bundle)
+org.acra.BaseCrashReportDialog: void cancelReports()
+org.acra.BaseCrashReportDialog: void sendCrash(java.lang.String,java.lang.String)
+org.acra.CrashReportDialog
+org.acra.CrashReportDialog: java.lang.String STATE_EMAIL
+org.acra.CrashReportDialog: java.lang.String STATE_COMMENT
+org.acra.CrashReportDialog: android.widget.EditText userCommentView
+org.acra.CrashReportDialog: android.widget.EditText userEmailView
+org.acra.CrashReportDialog: android.app.AlertDialog mDialog
+org.acra.CrashReportDialog: CrashReportDialog()
+org.acra.CrashReportDialog: void onCreate(android.os.Bundle)
+org.acra.CrashReportDialog: android.view.View buildCustomView(android.os.Bundle)
+org.acra.CrashReportDialog: void onClick(android.content.DialogInterface,int)
+org.acra.CrashReportDialog: void onDismiss(android.content.DialogInterface)
+org.acra.CrashReportDialog: void onSaveInstanceState(android.os.Bundle)
+org.acra.CrashReportFileNameParser
+org.acra.CrashReportFileNameParser: CrashReportFileNameParser()
+org.acra.CrashReportFileNameParser: boolean isSilent(java.lang.String)
+org.acra.CrashReportFileNameParser: boolean isApproved(java.lang.String)
+org.acra.CrashReportFinder
+org.acra.CrashReportFinder: android.content.Context context
+org.acra.CrashReportFinder: CrashReportFinder(android.content.Context)
+org.acra.CrashReportFinder: java.lang.String[] getCrashReportFiles()
+org.acra.CrashReportFinder$1
+org.acra.CrashReportFinder$1: org.acra.CrashReportFinder this$0
+org.acra.CrashReportFinder$1: CrashReportFinder$1(org.acra.CrashReportFinder)
+org.acra.CrashReportFinder$1: boolean accept(java.io.File,java.lang.String)
+org.acra.CrashReportPersister
+org.acra.CrashReportPersister: int NONE
+org.acra.CrashReportPersister: int SLASH
+org.acra.CrashReportPersister: int UNICODE
+org.acra.CrashReportPersister: int CONTINUE
+org.acra.CrashReportPersister: int KEY_DONE
+org.acra.CrashReportPersister: int IGNORE
+org.acra.CrashReportPersister: java.lang.String LINE_SEPARATOR
+org.acra.CrashReportPersister: android.content.Context context
+org.acra.CrashReportPersister: CrashReportPersister(android.content.Context)
+org.acra.CrashReportPersister: org.acra.collector.CrashReportData load(java.lang.String)
+org.acra.CrashReportPersister: void store(org.acra.collector.CrashReportData,java.lang.String)
+org.acra.CrashReportPersister: boolean isEbcdic(java.io.BufferedInputStream)
+org.acra.CrashReportPersister: org.acra.collector.CrashReportData load(java.io.Reader)
+org.acra.CrashReportPersister: void dumpString(java.lang.StringBuilder,java.lang.String,boolean)
+org.acra.ErrorReporter
+org.acra.ErrorReporter: boolean enabled
+org.acra.ErrorReporter: android.app.Application mContext
+org.acra.ErrorReporter: android.content.SharedPreferences prefs
+org.acra.ErrorReporter: java.util.List mReportSenders
+org.acra.ErrorReporter: org.acra.collector.CrashReportDataFactory crashReportDataFactory
+org.acra.ErrorReporter: org.acra.CrashReportFileNameParser fileNameParser
+org.acra.ErrorReporter: java.lang.Thread$UncaughtExceptionHandler mDfltExceptionHandler
+org.acra.ErrorReporter: java.lang.ref.WeakReference lastActivityCreated
+org.acra.ErrorReporter: boolean toastWaitEnded
+org.acra.ErrorReporter: org.acra.ExceptionHandlerInitializer NULL_EXCEPTION_HANDLER_INITIALIZER
+org.acra.ErrorReporter: org.acra.ExceptionHandlerInitializer exceptionHandlerInitializer
+org.acra.ErrorReporter: int mNotificationCounter
+org.acra.ErrorReporter: ErrorReporter(android.app.Application,android.content.SharedPreferences,boolean)
+org.acra.ErrorReporter: org.acra.ErrorReporter getInstance()
+org.acra.ErrorReporter: void addCustomData(java.lang.String,java.lang.String)
+org.acra.ErrorReporter: java.lang.String putCustomData(java.lang.String,java.lang.String)
+org.acra.ErrorReporter: void setExceptionHandlerInitializer(org.acra.ExceptionHandlerInitializer)
+org.acra.ErrorReporter: java.lang.String removeCustomData(java.lang.String)
+org.acra.ErrorReporter: void clearCustomData()
+org.acra.ErrorReporter: java.lang.String getCustomData(java.lang.String)
+org.acra.ErrorReporter: void addReportSender(org.acra.sender.ReportSender)
+org.acra.ErrorReporter: void removeReportSender(org.acra.sender.ReportSender)
+org.acra.ErrorReporter: void removeReportSenders(java.lang.Class)
+org.acra.ErrorReporter: void removeAllReportSenders()
+org.acra.ErrorReporter: void setReportSender(org.acra.sender.ReportSender)
+org.acra.ErrorReporter: void uncaughtException(java.lang.Thread,java.lang.Throwable)
+org.acra.ErrorReporter: void endApplication(java.lang.Thread,java.lang.Throwable)
+org.acra.ErrorReporter: void handleSilentException(java.lang.Throwable)
+org.acra.ErrorReporter: void setEnabled(boolean)
+org.acra.ErrorReporter: org.acra.SendWorker startSendingReports(boolean,boolean)
+org.acra.ErrorReporter: void deletePendingReports()
+org.acra.ErrorReporter: void checkReportsOnApplicationStart()
+org.acra.ErrorReporter: void deletePendingNonApprovedReports(boolean)
+org.acra.ErrorReporter: void handleException(java.lang.Throwable,boolean)
+org.acra.ErrorReporter: void handleException(java.lang.Throwable)
+org.acra.ErrorReporter: org.acra.ErrorReporter$ReportBuilder reportBuilder()
+org.acra.ErrorReporter: void report(org.acra.ErrorReporter$ReportBuilder)
+org.acra.ErrorReporter: android.content.Intent createCrashReportDialogIntent(java.lang.String,org.acra.ErrorReporter$ReportBuilder)
+org.acra.ErrorReporter: void createNotification(java.lang.String,org.acra.ErrorReporter$ReportBuilder)
+org.acra.ErrorReporter: java.lang.String getReportFileName(org.acra.collector.CrashReportData)
+org.acra.ErrorReporter: void saveCrashReportFile(java.lang.String,org.acra.collector.CrashReportData)
+org.acra.ErrorReporter: void deletePendingReports(boolean,boolean,int)
+org.acra.ErrorReporter: boolean containsOnlySilentOrApprovedReports(java.lang.String[])
+org.acra.ErrorReporter: void setDefaultReportSenders()
+org.acra.ErrorReporter: java.lang.ref.WeakReference access$002(org.acra.ErrorReporter,java.lang.ref.WeakReference)
+org.acra.ErrorReporter: android.app.Application access$400(org.acra.ErrorReporter)
+org.acra.ErrorReporter: boolean access$1102(org.acra.ErrorReporter,boolean)
+org.acra.ErrorReporter: boolean access$1100(org.acra.ErrorReporter)
+org.acra.ErrorReporter: android.content.Intent access$1200(org.acra.ErrorReporter,java.lang.String,org.acra.ErrorReporter$ReportBuilder)
+org.acra.ErrorReporter: void access$1300(org.acra.ErrorReporter,java.lang.Thread,java.lang.Throwable)
+org.acra.ErrorReporter: void access$1400(org.acra.ErrorReporter,org.acra.ErrorReporter$ReportBuilder)
+org.acra.ErrorReporter: void <clinit>()
+org.acra.ErrorReporter$1
+org.acra.ErrorReporter$1: ErrorReporter$1()
+org.acra.ErrorReporter$1: void initializeExceptionHandler(org.acra.ErrorReporter)
+org.acra.ErrorReporter$2
+org.acra.ErrorReporter$2: org.acra.ErrorReporter this$0
+org.acra.ErrorReporter$2: ErrorReporter$2(org.acra.ErrorReporter)
+org.acra.ErrorReporter$2: void onActivityCreated(android.app.Activity,android.os.Bundle)
+org.acra.ErrorReporter$2: void onActivityStarted(android.app.Activity)
+org.acra.ErrorReporter$2: void onActivityResumed(android.app.Activity)
+org.acra.ErrorReporter$2: void onActivityPaused(android.app.Activity)
+org.acra.ErrorReporter$2: void onActivityStopped(android.app.Activity)
+org.acra.ErrorReporter$2: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)
+org.acra.ErrorReporter$2: void onActivityDestroyed(android.app.Activity)
+org.acra.ErrorReporter$3
+org.acra.ErrorReporter$3: org.acra.ErrorReporter$TimeHelper val$sentToastTimeMillis
+org.acra.ErrorReporter$3: org.acra.ErrorReporter this$0
+org.acra.ErrorReporter$3: ErrorReporter$3(org.acra.ErrorReporter,org.acra.ErrorReporter$TimeHelper)
+org.acra.ErrorReporter$3: void run()
+org.acra.ErrorReporter$4
+org.acra.ErrorReporter$4: org.acra.ErrorReporter$TimeHelper val$sentToastTimeMillis
+org.acra.ErrorReporter$4: org.acra.ErrorReporter this$0
+org.acra.ErrorReporter$4: ErrorReporter$4(org.acra.ErrorReporter,org.acra.ErrorReporter$TimeHelper)
+org.acra.ErrorReporter$4: void run()
+org.acra.ErrorReporter$5
+org.acra.ErrorReporter$5: org.acra.SendWorker val$worker
+org.acra.ErrorReporter$5: boolean val$showDirectDialog
+org.acra.ErrorReporter$5: java.lang.String val$reportFileName
+org.acra.ErrorReporter$5: org.acra.ErrorReporter$ReportBuilder val$reportBuilder
+org.acra.ErrorReporter$5: org.acra.ErrorReporter this$0
+org.acra.ErrorReporter$5: ErrorReporter$5(org.acra.ErrorReporter,org.acra.SendWorker,boolean,java.lang.String,org.acra.ErrorReporter$ReportBuilder)
+org.acra.ErrorReporter$5: void run()
+org.acra.ErrorReporter$ReportBuilder
+org.acra.ErrorReporter$ReportBuilder: java.lang.String mMessage
+org.acra.ErrorReporter$ReportBuilder: java.lang.Thread mUncaughtExceptionThread
+org.acra.ErrorReporter$ReportBuilder: java.lang.Throwable mException
+org.acra.ErrorReporter$ReportBuilder: java.util.Map mCustomData
+org.acra.ErrorReporter$ReportBuilder: boolean mForceSilent
+org.acra.ErrorReporter$ReportBuilder: boolean mEndsApplication
+org.acra.ErrorReporter$ReportBuilder: org.acra.ErrorReporter this$0
+org.acra.ErrorReporter$ReportBuilder: ErrorReporter$ReportBuilder(org.acra.ErrorReporter)
+org.acra.ErrorReporter$ReportBuilder: org.acra.ErrorReporter$ReportBuilder message(java.lang.String)
+org.acra.ErrorReporter$ReportBuilder: org.acra.ErrorReporter$ReportBuilder uncaughtExceptionThread(java.lang.Thread)
+org.acra.ErrorReporter$ReportBuilder: org.acra.ErrorReporter$ReportBuilder exception(java.lang.Throwable)
+org.acra.ErrorReporter$ReportBuilder: void initCustomData()
+org.acra.ErrorReporter$ReportBuilder: org.acra.ErrorReporter$ReportBuilder customData(java.util.Map)
+org.acra.ErrorReporter$ReportBuilder: org.acra.ErrorReporter$ReportBuilder customData(java.lang.String,java.lang.String)
+org.acra.ErrorReporter$ReportBuilder: org.acra.ErrorReporter$ReportBuilder forceSilent()
+org.acra.ErrorReporter$ReportBuilder: org.acra.ErrorReporter$ReportBuilder endsApplication()
+org.acra.ErrorReporter$ReportBuilder: void send()
+org.acra.ErrorReporter$ReportBuilder: org.acra.ErrorReporter$ReportBuilder access$100(org.acra.ErrorReporter$ReportBuilder,java.lang.Thread)
+org.acra.ErrorReporter$ReportBuilder: boolean access$200(org.acra.ErrorReporter$ReportBuilder)
+org.acra.ErrorReporter$ReportBuilder: java.lang.String access$500(org.acra.ErrorReporter$ReportBuilder)
+org.acra.ErrorReporter$ReportBuilder: java.lang.Throwable access$600(org.acra.ErrorReporter$ReportBuilder)
+org.acra.ErrorReporter$ReportBuilder: java.util.Map access$700(org.acra.ErrorReporter$ReportBuilder)
+org.acra.ErrorReporter$ReportBuilder: java.lang.Thread access$800(org.acra.ErrorReporter$ReportBuilder)
+org.acra.ErrorReporter$ReportBuilder: boolean access$900(org.acra.ErrorReporter$ReportBuilder)
+org.acra.ErrorReporter$TimeHelper
+org.acra.ErrorReporter$TimeHelper: java.lang.Long initialTimeMillis
+org.acra.ErrorReporter$TimeHelper: ErrorReporter$TimeHelper()
+org.acra.ErrorReporter$TimeHelper: void setInitialTimeMillis(long)
+org.acra.ErrorReporter$TimeHelper: long getElapsedTime()
+org.acra.ErrorReporter$TimeHelper: ErrorReporter$TimeHelper(org.acra.ErrorReporter$1)
+org.acra.ErrorReporter$TimeHelper: java.lang.Long access$1000(org.acra.ErrorReporter$TimeHelper)
+org.acra.ExceptionHandlerInitializer
+org.acra.ExceptionHandlerInitializer: void initializeExceptionHandler(org.acra.ErrorReporter)
+org.acra.ReportField
+org.acra.ReportField: org.acra.ReportField REPORT_ID
+org.acra.ReportField: org.acra.ReportField APP_VERSION_CODE
+org.acra.ReportField: org.acra.ReportField APP_VERSION_NAME
+org.acra.ReportField: org.acra.ReportField PACKAGE_NAME
+org.acra.ReportField: org.acra.ReportField FILE_PATH
+org.acra.ReportField: org.acra.ReportField PHONE_MODEL
+org.acra.ReportField: org.acra.ReportField ANDROID_VERSION
+org.acra.ReportField: org.acra.ReportField BUILD
+org.acra.ReportField: org.acra.ReportField BRAND
+org.acra.ReportField: org.acra.ReportField PRODUCT
+org.acra.ReportField: org.acra.ReportField TOTAL_MEM_SIZE
+org.acra.ReportField: org.acra.ReportField AVAILABLE_MEM_SIZE
+org.acra.ReportField: org.acra.ReportField BUILD_CONFIG
+org.acra.ReportField: org.acra.ReportField CUSTOM_DATA
+org.acra.ReportField: org.acra.ReportField STACK_TRACE
+org.acra.ReportField: org.acra.ReportField STACK_TRACE_HASH
+org.acra.ReportField: org.acra.ReportField INITIAL_CONFIGURATION
+org.acra.ReportField: org.acra.ReportField CRASH_CONFIGURATION
+org.acra.ReportField: org.acra.ReportField DISPLAY
+org.acra.ReportField: org.acra.ReportField USER_COMMENT
+org.acra.ReportField: org.acra.ReportField USER_APP_START_DATE
+org.acra.ReportField: org.acra.ReportField USER_CRASH_DATE
+org.acra.ReportField: org.acra.ReportField DUMPSYS_MEMINFO
+org.acra.ReportField: org.acra.ReportField DROPBOX
+org.acra.ReportField: org.acra.ReportField LOGCAT
+org.acra.ReportField: org.acra.ReportField EVENTSLOG
+org.acra.ReportField: org.acra.ReportField RADIOLOG
+org.acra.ReportField: org.acra.ReportField IS_SILENT
+org.acra.ReportField: org.acra.ReportField DEVICE_ID
+org.acra.ReportField: org.acra.ReportField INSTALLATION_ID
+org.acra.ReportField: org.acra.ReportField USER_EMAIL
+org.acra.ReportField: org.acra.ReportField DEVICE_FEATURES
+org.acra.ReportField: org.acra.ReportField ENVIRONMENT
+org.acra.ReportField: org.acra.ReportField SETTINGS_SYSTEM
+org.acra.ReportField: org.acra.ReportField SETTINGS_SECURE
+org.acra.ReportField: org.acra.ReportField SETTINGS_GLOBAL
+org.acra.ReportField: org.acra.ReportField SHARED_PREFERENCES
+org.acra.ReportField: org.acra.ReportField APPLICATION_LOG
+org.acra.ReportField: org.acra.ReportField MEDIA_CODEC_LIST
+org.acra.ReportField: org.acra.ReportField THREAD_DETAILS
+org.acra.ReportField: org.acra.ReportField USER_IP
+org.acra.ReportField: org.acra.ReportField[] $VALUES
+org.acra.ReportField: org.acra.ReportField[] values()
+org.acra.ReportField: org.acra.ReportField valueOf(java.lang.String)
+org.acra.ReportField: ReportField(java.lang.String,int)
+org.acra.ReportField: boolean containsKeyValuePairs()
+org.acra.ReportField: ReportField(java.lang.String,int,org.acra.ReportField$1)
+org.acra.ReportField: void <clinit>()
+org.acra.ReportField$1
+org.acra.ReportField$1: ReportField$1(java.lang.String,int)
+org.acra.ReportField$1: boolean containsKeyValuePairs()
+org.acra.ReportField$10
+org.acra.ReportField$10: ReportField$10(java.lang.String,int)
+org.acra.ReportField$10: boolean containsKeyValuePairs()
+org.acra.ReportField$11
+org.acra.ReportField$11: ReportField$11(java.lang.String,int)
+org.acra.ReportField$11: boolean containsKeyValuePairs()
+org.acra.ReportField$12
+org.acra.ReportField$12: ReportField$12(java.lang.String,int)
+org.acra.ReportField$12: boolean containsKeyValuePairs()
+org.acra.ReportField$2
+org.acra.ReportField$2: ReportField$2(java.lang.String,int)
+org.acra.ReportField$2: boolean containsKeyValuePairs()
+org.acra.ReportField$3
+org.acra.ReportField$3: ReportField$3(java.lang.String,int)
+org.acra.ReportField$3: boolean containsKeyValuePairs()
+org.acra.ReportField$4
+org.acra.ReportField$4: ReportField$4(java.lang.String,int)
+org.acra.ReportField$4: boolean containsKeyValuePairs()
+org.acra.ReportField$5
+org.acra.ReportField$5: ReportField$5(java.lang.String,int)
+org.acra.ReportField$5: boolean containsKeyValuePairs()
+org.acra.ReportField$6
+org.acra.ReportField$6: ReportField$6(java.lang.String,int)
+org.acra.ReportField$6: boolean containsKeyValuePairs()
+org.acra.ReportField$7
+org.acra.ReportField$7: ReportField$7(java.lang.String,int)
+org.acra.ReportField$7: boolean containsKeyValuePairs()
+org.acra.ReportField$8
+org.acra.ReportField$8: ReportField$8(java.lang.String,int)
+org.acra.ReportField$8: boolean containsKeyValuePairs()
+org.acra.ReportField$9
+org.acra.ReportField$9: ReportField$9(java.lang.String,int)
+org.acra.ReportField$9: boolean containsKeyValuePairs()
+org.acra.ReportingInteractionMode
+org.acra.ReportingInteractionMode: org.acra.ReportingInteractionMode SILENT
+org.acra.ReportingInteractionMode: org.acra.ReportingInteractionMode NOTIFICATION
+org.acra.ReportingInteractionMode: org.acra.ReportingInteractionMode TOAST
+org.acra.ReportingInteractionMode: org.acra.ReportingInteractionMode DIALOG
+org.acra.ReportingInteractionMode: org.acra.ReportingInteractionMode[] $VALUES
+org.acra.ReportingInteractionMode: org.acra.ReportingInteractionMode[] values()
+org.acra.ReportingInteractionMode: org.acra.ReportingInteractionMode valueOf(java.lang.String)
+org.acra.ReportingInteractionMode: ReportingInteractionMode(java.lang.String,int)
+org.acra.ReportingInteractionMode: void <clinit>()
+org.acra.SendWorker
+org.acra.SendWorker: android.content.Context context
+org.acra.SendWorker: boolean sendOnlySilentReports
+org.acra.SendWorker: boolean approvePendingReports
+org.acra.SendWorker: org.acra.CrashReportFileNameParser fileNameParser
+org.acra.SendWorker: java.util.List reportSenders
+org.acra.SendWorker: SendWorker(android.content.Context,java.util.List,boolean,boolean)
+org.acra.SendWorker: void run()
+org.acra.SendWorker: void approvePendingReports()
+org.acra.SendWorker: void checkAndSendReports(android.content.Context,boolean)
+org.acra.SendWorker: void sendCrashReport(org.acra.collector.CrashReportData)
+org.acra.SendWorker: void deleteFile(android.content.Context,java.lang.String)
+org.acra.annotation.ReportsCrashes
+org.acra.annotation.ReportsCrashes: java.lang.String formUri()
+org.acra.annotation.ReportsCrashes: org.acra.ReportingInteractionMode mode()
+org.acra.annotation.ReportsCrashes: int resDialogPositiveButtonText()
+org.acra.annotation.ReportsCrashes: int resDialogNegativeButtonText()
+org.acra.annotation.ReportsCrashes: int resDialogCommentPrompt()
+org.acra.annotation.ReportsCrashes: int resDialogEmailPrompt()
+org.acra.annotation.ReportsCrashes: int resDialogIcon()
+org.acra.annotation.ReportsCrashes: int resDialogOkToast()
+org.acra.annotation.ReportsCrashes: int resDialogText()
+org.acra.annotation.ReportsCrashes: int resDialogTitle()
+org.acra.annotation.ReportsCrashes: int resNotifIcon()
+org.acra.annotation.ReportsCrashes: int resNotifText()
+org.acra.annotation.ReportsCrashes: int resNotifTickerText()
+org.acra.annotation.ReportsCrashes: int resNotifTitle()
+org.acra.annotation.ReportsCrashes: int resToastText()
+org.acra.annotation.ReportsCrashes: java.lang.String sharedPreferencesName()
+org.acra.annotation.ReportsCrashes: int sharedPreferencesMode()
+org.acra.annotation.ReportsCrashes: boolean includeDropBoxSystemTags()
+org.acra.annotation.ReportsCrashes: java.lang.String[] additionalDropBoxTags()
+org.acra.annotation.ReportsCrashes: int dropboxCollectionMinutes()
+org.acra.annotation.ReportsCrashes: java.lang.String[] logcatArguments()
+org.acra.annotation.ReportsCrashes: java.lang.String formUriBasicAuthLogin()
+org.acra.annotation.ReportsCrashes: java.lang.String formUriBasicAuthPassword()
+org.acra.annotation.ReportsCrashes: org.acra.ReportField[] customReportContent()
+org.acra.annotation.ReportsCrashes: java.lang.String mailTo()
+org.acra.annotation.ReportsCrashes: boolean deleteUnapprovedReportsOnApplicationStart()
+org.acra.annotation.ReportsCrashes: boolean deleteOldUnsentReportsOnApplicationStart()
+org.acra.annotation.ReportsCrashes: int connectionTimeout()
+org.acra.annotation.ReportsCrashes: int socketTimeout()
+org.acra.annotation.ReportsCrashes: int maxNumberOfRequestRetries()
+org.acra.annotation.ReportsCrashes: boolean forceCloseDialogAfterToast()
+org.acra.annotation.ReportsCrashes: java.lang.String[] additionalSharedPreferences()
+org.acra.annotation.ReportsCrashes: boolean logcatFilterByPid()
+org.acra.annotation.ReportsCrashes: boolean sendReportsInDevMode()
+org.acra.annotation.ReportsCrashes: boolean sendReportsAtShutdown()
+org.acra.annotation.ReportsCrashes: java.lang.String[] excludeMatchingSharedPreferencesKeys()
+org.acra.annotation.ReportsCrashes: java.lang.String[] excludeMatchingSettingsKeys()
+org.acra.annotation.ReportsCrashes: java.lang.Class buildConfigClass()
+org.acra.annotation.ReportsCrashes: java.lang.String applicationLogFile()
+org.acra.annotation.ReportsCrashes: int applicationLogFileLines()
+org.acra.annotation.ReportsCrashes: boolean disableSSLCertValidation()
+org.acra.annotation.ReportsCrashes: java.lang.String httpsSocketFactoryFactoryClass()
+org.acra.annotation.ReportsCrashes: java.lang.Class reportDialogClass()
+org.acra.annotation.ReportsCrashes: org.acra.sender.HttpSender$Method httpMethod()
+org.acra.annotation.ReportsCrashes: org.acra.sender.HttpSender$Type reportType()
+org.acra.collector.CollectorUtil
+org.acra.collector.CollectorUtil: CollectorUtil()
+org.acra.collector.CollectorUtil: void safeClose(java.io.Reader)
+org.acra.collector.Compatibility
+org.acra.collector.Compatibility: Compatibility()
+org.acra.collector.Compatibility: int getAPILevel()
+org.acra.collector.Compatibility: java.lang.String getDropBoxServiceName()
+org.acra.collector.ConfigurationCollector
+org.acra.collector.ConfigurationCollector: java.lang.String SUFFIX_MASK
+org.acra.collector.ConfigurationCollector: java.lang.String FIELD_SCREENLAYOUT
+org.acra.collector.ConfigurationCollector: java.lang.String FIELD_UIMODE
+org.acra.collector.ConfigurationCollector: java.lang.String FIELD_MNC
+org.acra.collector.ConfigurationCollector: java.lang.String FIELD_MCC
+org.acra.collector.ConfigurationCollector: java.lang.String PREFIX_UI_MODE
+org.acra.collector.ConfigurationCollector: java.lang.String PREFIX_TOUCHSCREEN
+org.acra.collector.ConfigurationCollector: java.lang.String PREFIX_SCREENLAYOUT
+org.acra.collector.ConfigurationCollector: java.lang.String PREFIX_ORIENTATION
+org.acra.collector.ConfigurationCollector: java.lang.String PREFIX_NAVIGATIONHIDDEN
+org.acra.collector.ConfigurationCollector: java.lang.String PREFIX_NAVIGATION
+org.acra.collector.ConfigurationCollector: java.lang.String PREFIX_KEYBOARDHIDDEN
+org.acra.collector.ConfigurationCollector: java.lang.String PREFIX_KEYBOARD
+org.acra.collector.ConfigurationCollector: java.lang.String PREFIX_HARDKEYBOARDHIDDEN
+org.acra.collector.ConfigurationCollector: java.util.HashMap mValueArrays
+org.acra.collector.ConfigurationCollector: ConfigurationCollector()
+org.acra.collector.ConfigurationCollector: java.lang.String toString(android.content.res.Configuration)
+org.acra.collector.ConfigurationCollector: java.lang.String getFieldValueName(android.content.res.Configuration,java.lang.reflect.Field)
+org.acra.collector.ConfigurationCollector: java.lang.String activeFlags(android.util.SparseArray,int)
+org.acra.collector.ConfigurationCollector: java.lang.String collectConfiguration(android.content.Context)
+org.acra.collector.CrashReportData
+org.acra.collector.CrashReportData: long serialVersionUID
+org.acra.collector.CrashReportData: CrashReportData()
+org.acra.collector.CrashReportData: java.lang.String getProperty(org.acra.ReportField)
+org.acra.collector.CrashReportData: org.json.JSONObject toJSON()
+org.acra.collector.CrashReportDataFactory
+org.acra.collector.CrashReportDataFactory: android.content.Context context
+org.acra.collector.CrashReportDataFactory: android.content.SharedPreferences prefs
+org.acra.collector.CrashReportDataFactory: java.util.Map customParameters
+org.acra.collector.CrashReportDataFactory: android.text.format.Time appStartDate
+org.acra.collector.CrashReportDataFactory: java.lang.String initialConfiguration
+org.acra.collector.CrashReportDataFactory: CrashReportDataFactory(android.content.Context,android.content.SharedPreferences,android.text.format.Time,java.lang.String)
+org.acra.collector.CrashReportDataFactory: java.lang.String putCustomData(java.lang.String,java.lang.String)
+org.acra.collector.CrashReportDataFactory: java.lang.String removeCustomData(java.lang.String)
+org.acra.collector.CrashReportDataFactory: void clearCustomData()
+org.acra.collector.CrashReportDataFactory: java.lang.String getCustomData(java.lang.String)
+org.acra.collector.CrashReportDataFactory: org.acra.collector.CrashReportData createCrashData(java.lang.String,java.lang.Throwable,java.util.Map,boolean,java.lang.Thread)
+org.acra.collector.CrashReportDataFactory: java.lang.String createCustomInfoString(java.util.Map)
+org.acra.collector.CrashReportDataFactory: java.lang.String getStackTrace(java.lang.String,java.lang.Throwable)
+org.acra.collector.CrashReportDataFactory: java.lang.String getStackTraceHash(java.lang.Throwable)
+org.acra.collector.CrashReportDataFactory: java.lang.Class getBuildConfigClass()
+org.acra.collector.DeviceFeaturesCollector
+org.acra.collector.DeviceFeaturesCollector: DeviceFeaturesCollector()
+org.acra.collector.DeviceFeaturesCollector: java.lang.String getFeatures(android.content.Context)
+org.acra.collector.DisplayManagerCollector
+org.acra.collector.DisplayManagerCollector: android.util.SparseArray mFlagsNames
+org.acra.collector.DisplayManagerCollector: android.util.SparseArray mDensities
+org.acra.collector.DisplayManagerCollector: DisplayManagerCollector()
+org.acra.collector.DisplayManagerCollector: java.lang.String collectDisplays(android.content.Context)
+org.acra.collector.DisplayManagerCollector: java.lang.Object collectDisplayData(android.view.Display)
+org.acra.collector.DisplayManagerCollector: java.lang.Object collectIsValid(android.view.Display)
+org.acra.collector.DisplayManagerCollector: java.lang.Object collectRotation(android.view.Display)
+org.acra.collector.DisplayManagerCollector: java.lang.Object collectRectSize(android.view.Display)
+org.acra.collector.DisplayManagerCollector: java.lang.Object collectSize(android.view.Display,java.lang.String)
+org.acra.collector.DisplayManagerCollector: java.lang.String collectCurrentSizeRange(android.view.Display)
+org.acra.collector.DisplayManagerCollector: java.lang.String collectFlags(android.view.Display)
+org.acra.collector.DisplayManagerCollector: java.lang.String collectName(android.view.Display)
+org.acra.collector.DisplayManagerCollector: java.lang.Object collectMetrics(android.view.Display,java.lang.String)
+org.acra.collector.DisplayManagerCollector: java.lang.String activeFlags(android.util.SparseArray,int)
+org.acra.collector.DisplayManagerCollector: void <clinit>()
+org.acra.collector.DropBoxCollector
+org.acra.collector.DropBoxCollector: java.lang.String[] SYSTEM_TAGS
+org.acra.collector.DropBoxCollector: java.lang.String NO_RESULT
+org.acra.collector.DropBoxCollector: DropBoxCollector()
+org.acra.collector.DropBoxCollector: java.lang.String read(android.content.Context,java.lang.String[])
+org.acra.collector.DropBoxCollector: void <clinit>()
+org.acra.collector.DumpSysCollector
+org.acra.collector.DumpSysCollector: DumpSysCollector()
+org.acra.collector.DumpSysCollector: java.lang.String collectMemInfo()
+org.acra.collector.LogCatCollector
+org.acra.collector.LogCatCollector: int DEFAULT_TAIL_COUNT
+org.acra.collector.LogCatCollector: LogCatCollector()
+org.acra.collector.LogCatCollector: java.lang.String collectLogCat(java.lang.String)
+org.acra.collector.LogCatCollector$1
+org.acra.collector.LogCatCollector$1: java.lang.Process val$process
+org.acra.collector.LogCatCollector$1: LogCatCollector$1(java.lang.Process)
+org.acra.collector.LogCatCollector$1: void run()
+org.acra.collector.LogFileCollector
+org.acra.collector.LogFileCollector: LogFileCollector()
+org.acra.collector.LogFileCollector: java.lang.String collectLogFile(android.content.Context,java.lang.String,int)
+org.acra.collector.MediaCodecListCollector
+org.acra.collector.MediaCodecListCollector: java.lang.String COLOR_FORMAT_PREFIX
+org.acra.collector.MediaCodecListCollector: java.lang.String[] MPEG4_TYPES
+org.acra.collector.MediaCodecListCollector: java.lang.String[] AVC_TYPES
+org.acra.collector.MediaCodecListCollector: java.lang.String[] H263_TYPES
+org.acra.collector.MediaCodecListCollector: java.lang.String[] AAC_TYPES
+org.acra.collector.MediaCodecListCollector: java.lang.Class mediaCodecListClass
+org.acra.collector.MediaCodecListCollector: java.lang.reflect.Method getCodecInfoAtMethod
+org.acra.collector.MediaCodecListCollector: java.lang.Class mediaCodecInfoClass
+org.acra.collector.MediaCodecListCollector: java.lang.reflect.Method getNameMethod
+org.acra.collector.MediaCodecListCollector: java.lang.reflect.Method isEncoderMethod
+org.acra.collector.MediaCodecListCollector: java.lang.reflect.Method getSupportedTypesMethod
+org.acra.collector.MediaCodecListCollector: java.lang.reflect.Method getCapabilitiesForTypeMethod
+org.acra.collector.MediaCodecListCollector: java.lang.Class codecCapabilitiesClass
+org.acra.collector.MediaCodecListCollector: java.lang.reflect.Field colorFormatsField
+org.acra.collector.MediaCodecListCollector: java.lang.reflect.Field profileLevelsField
+org.acra.collector.MediaCodecListCollector: java.lang.reflect.Field profileField
+org.acra.collector.MediaCodecListCollector: java.lang.reflect.Field levelField
+org.acra.collector.MediaCodecListCollector: android.util.SparseArray mColorFormatValues
+org.acra.collector.MediaCodecListCollector: android.util.SparseArray mAVCLevelValues
+org.acra.collector.MediaCodecListCollector: android.util.SparseArray mAVCProfileValues
+org.acra.collector.MediaCodecListCollector: android.util.SparseArray mH263LevelValues
+org.acra.collector.MediaCodecListCollector: android.util.SparseArray mH263ProfileValues
+org.acra.collector.MediaCodecListCollector: android.util.SparseArray mMPEG4LevelValues
+org.acra.collector.MediaCodecListCollector: android.util.SparseArray mMPEG4ProfileValues
+org.acra.collector.MediaCodecListCollector: android.util.SparseArray mAACProfileValues
+org.acra.collector.MediaCodecListCollector: MediaCodecListCollector()
+org.acra.collector.MediaCodecListCollector: java.lang.String collecMediaCodecList()
+org.acra.collector.MediaCodecListCollector: java.lang.String collectCapabilitiesForType(java.lang.Object,java.lang.String)
+org.acra.collector.MediaCodecListCollector: org.acra.collector.MediaCodecListCollector$CodecType identifyCodecType(java.lang.Object)
+org.acra.collector.MediaCodecListCollector: void <clinit>()
+org.acra.collector.MediaCodecListCollector$1
+org.acra.collector.MediaCodecListCollector$1: int[] $SwitchMap$org$acra$collector$MediaCodecListCollector$CodecType
+org.acra.collector.MediaCodecListCollector$1: void <clinit>()
+org.acra.collector.MediaCodecListCollector$CodecType
+org.acra.collector.MediaCodecListCollector$CodecType: org.acra.collector.MediaCodecListCollector$CodecType AVC
+org.acra.collector.MediaCodecListCollector$CodecType: org.acra.collector.MediaCodecListCollector$CodecType H263
+org.acra.collector.MediaCodecListCollector$CodecType: org.acra.collector.MediaCodecListCollector$CodecType MPEG4
+org.acra.collector.MediaCodecListCollector$CodecType: org.acra.collector.MediaCodecListCollector$CodecType AAC
+org.acra.collector.MediaCodecListCollector$CodecType: org.acra.collector.MediaCodecListCollector$CodecType[] $VALUES
+org.acra.collector.MediaCodecListCollector$CodecType: org.acra.collector.MediaCodecListCollector$CodecType[] values()
+org.acra.collector.MediaCodecListCollector$CodecType: org.acra.collector.MediaCodecListCollector$CodecType valueOf(java.lang.String)
+org.acra.collector.MediaCodecListCollector$CodecType: MediaCodecListCollector$CodecType(java.lang.String,int)
+org.acra.collector.MediaCodecListCollector$CodecType: void <clinit>()
+org.acra.collector.ReflectionCollector
+org.acra.collector.ReflectionCollector: ReflectionCollector()
+org.acra.collector.ReflectionCollector: java.lang.String collectConstants(java.lang.Class,java.lang.String)
+org.acra.collector.ReflectionCollector: java.lang.String collectStaticGettersResults(java.lang.Class)
+org.acra.collector.ReflectionCollector: java.lang.String collectConstants(java.lang.Class)
+org.acra.collector.SettingsCollector
+org.acra.collector.SettingsCollector: SettingsCollector()
+org.acra.collector.SettingsCollector: java.lang.String collectSystemSettings(android.content.Context)
+org.acra.collector.SettingsCollector: java.lang.String collectSecureSettings(android.content.Context)
+org.acra.collector.SettingsCollector: java.lang.String collectGlobalSettings(android.content.Context)
+org.acra.collector.SettingsCollector: boolean isAuthorized(java.lang.reflect.Field)
+org.acra.collector.SharedPreferencesCollector
+org.acra.collector.SharedPreferencesCollector: SharedPreferencesCollector()
+org.acra.collector.SharedPreferencesCollector: java.lang.String collect(android.content.Context)
+org.acra.collector.SharedPreferencesCollector: boolean filteredKey(java.lang.String)
+org.acra.collector.ThreadCollector
+org.acra.collector.ThreadCollector: ThreadCollector()
+org.acra.collector.ThreadCollector: java.lang.String collect(java.lang.Thread)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksAdapter
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksAdapter: ActivityLifecycleCallbacksAdapter()
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksAdapter: void onActivityCreated(android.app.Activity,android.os.Bundle)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksAdapter: void onActivityStarted(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksAdapter: void onActivityResumed(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksAdapter: void onActivityPaused(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksAdapter: void onActivityStopped(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksAdapter: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksAdapter: void onActivityDestroyed(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat: void onActivityCreated(android.app.Activity,android.os.Bundle)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat: void onActivityStarted(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat: void onActivityResumed(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat: void onActivityPaused(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat: void onActivityStopped(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat: void onActivityDestroyed(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksWrapper
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksWrapper: org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat mCallback
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksWrapper: ActivityLifecycleCallbacksWrapper(org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksWrapper: void onActivityCreated(android.app.Activity,android.os.Bundle)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksWrapper: void onActivityStarted(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksWrapper: void onActivityResumed(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksWrapper: void onActivityPaused(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksWrapper: void onActivityStopped(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksWrapper: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksWrapper: void onActivityDestroyed(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksWrapper: boolean equals(java.lang.Object)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksWrapper: int hashCode()
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ApplicationHelper
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ApplicationHelper: boolean PRE_ICS
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ApplicationHelper: ApplicationHelper()
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ApplicationHelper: void registerActivityLifecycleCallbacks(android.app.Application,org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ApplicationHelper: void preIcsRegisterActivityLifecycleCallbacks(org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ApplicationHelper: void postIcsRegisterActivityLifecycleCallbacks(android.app.Application,org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ApplicationHelper: void unregisterActivityLifecycleCallbacks(android.app.Application,org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ApplicationHelper: void preIcsUnregisterActivityLifecycleCallbacks(org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ApplicationHelper: void postIcsUnregisterActivityLifecycleCallbacks(android.app.Application,org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.ApplicationHelper: void <clinit>()
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher: org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher INSTANCE
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher: java.util.ArrayList mActivityLifecycleCallbacks
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher: org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher get()
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher: MainLifecycleDispatcher()
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher: void registerActivityLifecycleCallbacks(org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher: void unregisterActivityLifecycleCallbacks(org.acra.jraf.android.util.activitylifecyclecallbackscompat.ActivityLifecycleCallbacksCompat)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher: java.lang.Object[] collectActivityLifecycleCallbacks()
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher: void onActivityCreated(android.app.Activity,android.os.Bundle)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher: void onActivityStarted(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher: void onActivityResumed(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher: void onActivityPaused(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher: void onActivityStopped(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher: void onActivityDestroyed(android.app.Activity)
+org.acra.jraf.android.util.activitylifecyclecallbackscompat.MainLifecycleDispatcher: void <clinit>()
+org.acra.log.ACRALog
+org.acra.log.ACRALog: int v(java.lang.String,java.lang.String)
+org.acra.log.ACRALog: int v(java.lang.String,java.lang.String,java.lang.Throwable)
+org.acra.log.ACRALog: int d(java.lang.String,java.lang.String)
+org.acra.log.ACRALog: int d(java.lang.String,java.lang.String,java.lang.Throwable)
+org.acra.log.ACRALog: int i(java.lang.String,java.lang.String)
+org.acra.log.ACRALog: int i(java.lang.String,java.lang.String,java.lang.Throwable)
+org.acra.log.ACRALog: int w(java.lang.String,java.lang.String)
+org.acra.log.ACRALog: int w(java.lang.String,java.lang.String,java.lang.Throwable)
+org.acra.log.ACRALog: int w(java.lang.String,java.lang.Throwable)
+org.acra.log.ACRALog: int e(java.lang.String,java.lang.String)
+org.acra.log.ACRALog: int e(java.lang.String,java.lang.String,java.lang.Throwable)
+org.acra.log.ACRALog: java.lang.String getStackTraceString(java.lang.Throwable)
+org.acra.log.AndroidLogDelegate
+org.acra.log.AndroidLogDelegate: AndroidLogDelegate()
+org.acra.log.AndroidLogDelegate: int v(java.lang.String,java.lang.String)
+org.acra.log.AndroidLogDelegate: int v(java.lang.String,java.lang.String,java.lang.Throwable)
+org.acra.log.AndroidLogDelegate: int d(java.lang.String,java.lang.String)
+org.acra.log.AndroidLogDelegate: int d(java.lang.String,java.lang.String,java.lang.Throwable)
+org.acra.log.AndroidLogDelegate: int i(java.lang.String,java.lang.String)
+org.acra.log.AndroidLogDelegate: int i(java.lang.String,java.lang.String,java.lang.Throwable)
+org.acra.log.AndroidLogDelegate: int w(java.lang.String,java.lang.String)
+org.acra.log.AndroidLogDelegate: int w(java.lang.String,java.lang.String,java.lang.Throwable)
+org.acra.log.AndroidLogDelegate: int w(java.lang.String,java.lang.Throwable)
+org.acra.log.AndroidLogDelegate: int e(java.lang.String,java.lang.String)
+org.acra.log.AndroidLogDelegate: int e(java.lang.String,java.lang.String,java.lang.Throwable)
+org.acra.log.AndroidLogDelegate: java.lang.String getStackTraceString(java.lang.Throwable)
+org.acra.log.HollowLog
+org.acra.log.HollowLog: HollowLog()
+org.acra.log.HollowLog: int v(java.lang.String,java.lang.String)
+org.acra.log.HollowLog: int v(java.lang.String,java.lang.String,java.lang.Throwable)
+org.acra.log.HollowLog: int d(java.lang.String,java.lang.String)
+org.acra.log.HollowLog: int d(java.lang.String,java.lang.String,java.lang.Throwable)
+org.acra.log.HollowLog: int i(java.lang.String,java.lang.String)
+org.acra.log.HollowLog: int i(java.lang.String,java.lang.String,java.lang.Throwable)
+org.acra.log.HollowLog: int w(java.lang.String,java.lang.String)
+org.acra.log.HollowLog: int w(java.lang.String,java.lang.String,java.lang.Throwable)
+org.acra.log.HollowLog: int w(java.lang.String,java.lang.Throwable)
+org.acra.log.HollowLog: int e(java.lang.String,java.lang.String)
+org.acra.log.HollowLog: int e(java.lang.String,java.lang.String,java.lang.Throwable)
+org.acra.log.HollowLog: java.lang.String getStackTraceString(java.lang.Throwable)
+org.acra.sender.EmailIntentSender
+org.acra.sender.EmailIntentSender: android.content.Context mContext
+org.acra.sender.EmailIntentSender: EmailIntentSender(android.content.Context)
+org.acra.sender.EmailIntentSender: void send(android.content.Context,org.acra.collector.CrashReportData)
+org.acra.sender.EmailIntentSender: java.lang.String buildBody(org.acra.collector.CrashReportData)
+org.acra.sender.HttpSender
+org.acra.sender.HttpSender: android.net.Uri mFormUri
+org.acra.sender.HttpSender: java.util.Map mMapping
+org.acra.sender.HttpSender: org.acra.sender.HttpSender$Method mMethod
+org.acra.sender.HttpSender: org.acra.sender.HttpSender$Type mType
+org.acra.sender.HttpSender: java.lang.String mUsername
+org.acra.sender.HttpSender: java.lang.String mPassword
+org.acra.sender.HttpSender: HttpSender(org.acra.sender.HttpSender$Method,org.acra.sender.HttpSender$Type,java.util.Map)
+org.acra.sender.HttpSender: HttpSender(org.acra.sender.HttpSender$Method,org.acra.sender.HttpSender$Type,java.lang.String,java.util.Map)
+org.acra.sender.HttpSender: void setBasicAuth(java.lang.String,java.lang.String)
+org.acra.sender.HttpSender: void send(android.content.Context,org.acra.collector.CrashReportData)
+org.acra.sender.HttpSender: java.util.Map remap(java.util.Map)
+org.acra.sender.HttpSender$1
+org.acra.sender.HttpSender$1: int[] $SwitchMap$org$acra$sender$HttpSender$Type
+org.acra.sender.HttpSender$1: int[] $SwitchMap$org$acra$sender$HttpSender$Method
+org.acra.sender.HttpSender$1: void <clinit>()
+org.acra.sender.HttpSender$Method
+org.acra.sender.HttpSender$Method: org.acra.sender.HttpSender$Method POST
+org.acra.sender.HttpSender$Method: org.acra.sender.HttpSender$Method PUT
+org.acra.sender.HttpSender$Method: org.acra.sender.HttpSender$Method[] $VALUES
+org.acra.sender.HttpSender$Method: org.acra.sender.HttpSender$Method[] values()
+org.acra.sender.HttpSender$Method: org.acra.sender.HttpSender$Method valueOf(java.lang.String)
+org.acra.sender.HttpSender$Method: HttpSender$Method(java.lang.String,int)
+org.acra.sender.HttpSender$Method: void <clinit>()
+org.acra.sender.HttpSender$Type
+org.acra.sender.HttpSender$Type: org.acra.sender.HttpSender$Type FORM
+org.acra.sender.HttpSender$Type: org.acra.sender.HttpSender$Type JSON
+org.acra.sender.HttpSender$Type: org.acra.sender.HttpSender$Type[] $VALUES
+org.acra.sender.HttpSender$Type: org.acra.sender.HttpSender$Type[] values()
+org.acra.sender.HttpSender$Type: org.acra.sender.HttpSender$Type valueOf(java.lang.String)
+org.acra.sender.HttpSender$Type: HttpSender$Type(java.lang.String,int)
+org.acra.sender.HttpSender$Type: java.lang.String getContentType()
+org.acra.sender.HttpSender$Type: HttpSender$Type(java.lang.String,int,org.acra.sender.HttpSender$1)
+org.acra.sender.HttpSender$Type: void <clinit>()
+org.acra.sender.HttpSender$Type$1
+org.acra.sender.HttpSender$Type$1: HttpSender$Type$1(java.lang.String,int)
+org.acra.sender.HttpSender$Type$1: java.lang.String getContentType()
+org.acra.sender.HttpSender$Type$2
+org.acra.sender.HttpSender$Type$2: HttpSender$Type$2(java.lang.String,int)
+org.acra.sender.HttpSender$Type$2: java.lang.String getContentType()
+org.acra.sender.ReportSender
+org.acra.sender.ReportSender: void send(android.content.Context,org.acra.collector.CrashReportData)
+org.acra.sender.ReportSenderException
+org.acra.sender.ReportSenderException: ReportSenderException(java.lang.String,java.lang.Throwable)
+org.acra.sender.ReportSenderException: ReportSenderException(java.lang.String)
+org.acra.util.BoundedLinkedList
+org.acra.util.BoundedLinkedList: int maxSize
+org.acra.util.BoundedLinkedList: BoundedLinkedList(int)
+org.acra.util.BoundedLinkedList: boolean add(java.lang.Object)
+org.acra.util.BoundedLinkedList: void add(int,java.lang.Object)
+org.acra.util.BoundedLinkedList: boolean addAll(java.util.Collection)
+org.acra.util.BoundedLinkedList: boolean addAll(int,java.util.Collection)
+org.acra.util.BoundedLinkedList: void addFirst(java.lang.Object)
+org.acra.util.BoundedLinkedList: void addLast(java.lang.Object)
+org.acra.util.BoundedLinkedList: java.lang.String toString()
+org.acra.util.DefaultHttpsSocketFactoryFactory
+org.acra.util.DefaultHttpsSocketFactoryFactory: org.acra.util.HttpsSocketFactoryFactory INSTANCE
+org.acra.util.DefaultHttpsSocketFactoryFactory: DefaultHttpsSocketFactoryFactory()
+org.acra.util.DefaultHttpsSocketFactoryFactory: org.apache.http.conn.scheme.SocketFactory create(android.content.Context)
+org.acra.util.DefaultHttpsSocketFactoryFactory: void <clinit>()
+org.acra.util.FakeSocketFactory
+org.acra.util.FakeSocketFactory: javax.net.ssl.SSLContext sslcontext
+org.acra.util.FakeSocketFactory: FakeSocketFactory()
+org.acra.util.FakeSocketFactory: javax.net.ssl.SSLContext createEasySSLContext()
+org.acra.util.FakeSocketFactory: javax.net.ssl.SSLContext getSSLContext()
+org.acra.util.FakeSocketFactory: java.net.Socket connectSocket(java.net.Socket,java.lang.String,int,java.net.InetAddress,int,org.apache.http.params.HttpParams)
+org.acra.util.FakeSocketFactory: java.net.Socket createSocket()
+org.acra.util.FakeSocketFactory: boolean isSecure(java.net.Socket)
+org.acra.util.FakeSocketFactory: java.net.Socket createSocket(java.net.Socket,java.lang.String,int,boolean)
+org.acra.util.HttpRequest
+org.acra.util.HttpRequest: java.lang.String login
+org.acra.util.HttpRequest: java.lang.String password
+org.acra.util.HttpRequest: int connectionTimeOut
+org.acra.util.HttpRequest: int socketTimeOut
+org.acra.util.HttpRequest: int maxNrRetries
+org.acra.util.HttpRequest: java.util.Map headers
+org.acra.util.HttpRequest: HttpRequest()
+org.acra.util.HttpRequest: void setLogin(java.lang.String)
+org.acra.util.HttpRequest: void setPassword(java.lang.String)
+org.acra.util.HttpRequest: void setConnectionTimeOut(int)
+org.acra.util.HttpRequest: void setSocketTimeOut(int)
+org.acra.util.HttpRequest: void setHeaders(java.util.Map)
+org.acra.util.HttpRequest: void setMaxNrRetries(int)
+org.acra.util.HttpRequest: void send(android.content.Context,java.net.URL,org.acra.sender.HttpSender$Method,java.lang.String,org.acra.sender.HttpSender$Type)
+org.acra.util.HttpRequest: org.apache.http.client.HttpClient getHttpClient(android.content.Context)
+org.acra.util.HttpRequest: org.apache.http.auth.UsernamePasswordCredentials getCredentials()
+org.acra.util.HttpRequest: org.apache.http.client.methods.HttpEntityEnclosingRequestBase getHttpRequest(java.net.URL,org.acra.sender.HttpSender$Method,java.lang.String,org.acra.sender.HttpSender$Type)
+org.acra.util.HttpRequest: java.lang.String getParamsAsFormString(java.util.Map)
+org.acra.util.HttpRequest$1
+org.acra.util.HttpRequest$1: int[] $SwitchMap$org$acra$sender$HttpSender$Method
+org.acra.util.HttpRequest$1: void <clinit>()
+org.acra.util.HttpRequest$SocketTimeOutRetryHandler
+org.acra.util.HttpRequest$SocketTimeOutRetryHandler: org.apache.http.params.HttpParams httpParams
+org.acra.util.HttpRequest$SocketTimeOutRetryHandler: int maxNrRetries
+org.acra.util.HttpRequest$SocketTimeOutRetryHandler: HttpRequest$SocketTimeOutRetryHandler(org.apache.http.params.HttpParams,int)
+org.acra.util.HttpRequest$SocketTimeOutRetryHandler: boolean retryRequest(java.io.IOException,int,org.apache.http.protocol.HttpContext)
+org.acra.util.HttpRequest$SocketTimeOutRetryHandler: HttpRequest$SocketTimeOutRetryHandler(org.apache.http.params.HttpParams,int,org.acra.util.HttpRequest$1)
+org.acra.util.HttpsSocketFactoryFactory
+org.acra.util.HttpsSocketFactoryFactory: org.apache.http.conn.scheme.SocketFactory create(android.content.Context)
+org.acra.util.Installation
+org.acra.util.Installation: java.lang.String sID
+org.acra.util.Installation: java.lang.String INSTALLATION
+org.acra.util.Installation: Installation()
+org.acra.util.Installation: java.lang.String id(android.content.Context)
+org.acra.util.Installation: java.lang.String readInstallationFile(java.io.File)
+org.acra.util.Installation: void writeInstallationFile(java.io.File)
+org.acra.util.JSONReportBuilder
+org.acra.util.JSONReportBuilder: JSONReportBuilder()
+org.acra.util.JSONReportBuilder: org.json.JSONObject buildJSONReport(org.acra.collector.CrashReportData)
+org.acra.util.JSONReportBuilder: void addJSONFromProperty(org.json.JSONObject,java.lang.String)
+org.acra.util.JSONReportBuilder: java.lang.Object guessType(java.lang.String)
+org.acra.util.JSONReportBuilder: void addJSONSubTree(org.json.JSONObject,java.lang.String[],java.lang.Object)
+org.acra.util.JSONReportBuilder$JSONReportException
+org.acra.util.JSONReportBuilder$JSONReportException: long serialVersionUID
+org.acra.util.JSONReportBuilder$JSONReportException: JSONReportBuilder$JSONReportException(java.lang.String,java.lang.Throwable)
+org.acra.util.NaiveTrustManager
+org.acra.util.NaiveTrustManager: NaiveTrustManager()
+org.acra.util.NaiveTrustManager: java.security.cert.X509Certificate[] getAcceptedIssuers()
+org.acra.util.NaiveTrustManager: void checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String)
+org.acra.util.NaiveTrustManager: void checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String)
+org.acra.util.PackageManagerWrapper
+org.acra.util.PackageManagerWrapper: android.content.Context context
+org.acra.util.PackageManagerWrapper: PackageManagerWrapper(android.content.Context)
+org.acra.util.PackageManagerWrapper: boolean hasPermission(java.lang.String)
+org.acra.util.PackageManagerWrapper: android.content.pm.PackageInfo getPackageInfo()
+org.acra.util.ReflectionException
+org.acra.util.ReflectionException: ReflectionException(java.lang.String,java.lang.Throwable)
+org.acra.util.ReflectionHelper
+org.acra.util.ReflectionHelper: ReflectionHelper()
+org.acra.util.ReflectionHelper: java.lang.Object create(java.lang.String)
+org.acra.util.ReportUtils
+org.acra.util.ReportUtils: ReportUtils()
+org.acra.util.ReportUtils: long getAvailableInternalMemorySize()
+org.acra.util.ReportUtils: long getTotalInternalMemorySize()
+org.acra.util.ReportUtils: java.lang.String getDeviceId(android.content.Context)
+org.acra.util.ReportUtils: java.lang.String getApplicationFilePath(android.content.Context)
+org.acra.util.ReportUtils: java.lang.String sparseArrayToString(android.util.SparseArray)
+org.acra.util.ReportUtils: java.lang.String getLocalIpAddress()
+org.acra.util.ReportUtils: java.lang.String getTimeString(android.text.format.Time)
+org.acra.util.TlsSniSocketFactory
+org.acra.util.TlsSniSocketFactory: java.lang.String TAG
+org.acra.util.TlsSniSocketFactory: int VERSION_CODES_JELLY_BEAN_MR1
+org.acra.util.TlsSniSocketFactory: int VERSION_CODES_LOLLIPOP
+org.acra.util.TlsSniSocketFactory: android.net.SSLCertificateSocketFactory sslSocketFactory
+org.acra.util.TlsSniSocketFactory: javax.net.ssl.HostnameVerifier hostnameVerifier
+org.acra.util.TlsSniSocketFactory: java.util.List ALLOWED_CIPHERS
+org.acra.util.TlsSniSocketFactory: TlsSniSocketFactory()
+org.acra.util.TlsSniSocketFactory: java.net.Socket connectSocket(java.net.Socket,java.lang.String,int,java.net.InetAddress,int,org.apache.http.params.HttpParams)
+org.acra.util.TlsSniSocketFactory: java.net.Socket createSocket()
+org.acra.util.TlsSniSocketFactory: boolean isSecure(java.net.Socket)
+org.acra.util.TlsSniSocketFactory: java.net.Socket createSocket(java.net.Socket,java.lang.String,int,boolean)
+org.acra.util.TlsSniSocketFactory: void establishAndVerify(javax.net.ssl.SSLSocket,java.lang.String)
+org.acra.util.TlsSniSocketFactory: void setTlsParameters(javax.net.ssl.SSLSocket)
+org.acra.util.TlsSniSocketFactory: void setSniHostname(javax.net.ssl.SSLSocket,java.lang.String)
+org.acra.util.TlsSniSocketFactory: void <clinit>()
+org.acra.util.ToastSender
+org.acra.util.ToastSender: ToastSender()
+org.acra.util.ToastSender: void sendToast(android.content.Context,int,int)
+se.emilsjolander.stickylistheaders.ExpandableStickyListHeadersListView: se.emilsjolander.stickylistheaders.ExpandableStickyListHeadersAdapter getAdapter()
+se.emilsjolander.stickylistheaders.ExpandableStickyListHeadersListView: void setAdapter(se.emilsjolander.stickylistheaders.StickyListHeadersAdapter)
+se.emilsjolander.stickylistheaders.ExpandableStickyListHeadersListView: void setAnimExecutor(se.emilsjolander.stickylistheaders.ExpandableStickyListHeadersListView$IAnimationExecutor)
+se.emilsjolander.stickylistheaders.ExpandableStickyListHeadersListView: se.emilsjolander.stickylistheaders.StickyListHeadersAdapter getAdapter()
+se.emilsjolander.stickylistheaders.R$attr: int isDrawingListUnderStickyHeader
+se.emilsjolander.stickylistheaders.R$attr: int hasStickyHeaders
+se.emilsjolander.stickylistheaders.R$attr: int stickyListHeadersListViewStyle
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_paddingBottom
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_fastScrollAlwaysVisible
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_paddingRight
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_fastScrollEnabled
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_drawSelectorOnTop
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_listSelector
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_requiresFadingEdge
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_padding
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_fadingEdgeLength
+se.emilsjolander.stickylistheaders.R$styleable: int[] StickyListHeadersListView
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_stickyListHeadersListViewStyle
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_choiceMode
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_hasStickyHeaders
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_scrollbars
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_transcriptMode
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_cacheColorHint
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_isDrawingListUnderStickyHeader
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_stackFromBottom
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_scrollingCache
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_paddingTop
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_divider
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_scrollbarStyle
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_dividerHeight
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_paddingLeft
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_overScrollMode
+se.emilsjolander.stickylistheaders.R$styleable: int StickyListHeadersListView_android_clipToPadding
+se.emilsjolander.stickylistheaders.StickyListHeadersListView
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: StickyListHeadersListView(android.content.Context)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: StickyListHeadersListView(android.content.Context,android.util.AttributeSet)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: StickyListHeadersListView(android.content.Context,android.util.AttributeSet,int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setHeaderOffet(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setAreHeadersSticky(boolean)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: boolean getAreHeadersSticky()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setStickyHeaderTopOffset(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getStickyHeaderTopOffset()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setDrawingListUnderStickyHeader(boolean)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOnHeaderClickListener(se.emilsjolander.stickylistheaders.StickyListHeadersListView$OnHeaderClickListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOnStickyHeaderOffsetChangedListener(se.emilsjolander.stickylistheaders.StickyListHeadersListView$OnStickyHeaderOffsetChangedListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOnStickyHeaderChangedListener(se.emilsjolander.stickylistheaders.StickyListHeadersListView$OnStickyHeaderChangedListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getListChildCount()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: android.widget.ListView getWrappedList()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setAdapter(se.emilsjolander.stickylistheaders.StickyListHeadersAdapter)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: se.emilsjolander.stickylistheaders.StickyListHeadersAdapter getAdapter()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setDivider(android.graphics.drawable.Drawable)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setDividerHeight(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: android.graphics.drawable.Drawable getDivider()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getDividerHeight()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOnScrollListener(android.widget.AbsListView$OnScrollListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOnTouchListener(android.view.View$OnTouchListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOnItemClickListener(android.widget.AdapterView$OnItemClickListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOnItemLongClickListener(android.widget.AdapterView$OnItemLongClickListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getHeaderViewsCount()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getFooterViewsCount()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setEmptyView(android.view.View)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: android.view.View getEmptyView()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setVerticalScrollBarEnabled(boolean)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setHorizontalScrollBarEnabled(boolean)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getOverScrollMode()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOverScrollMode(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setSelection(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setSelector(android.graphics.drawable.Drawable)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setSelector(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getFirstVisiblePosition()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getLastVisiblePosition()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setChoiceMode(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getCheckedItemCount()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: long[] getCheckedItemIds()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getCheckedItemPosition()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: android.util.SparseBooleanArray getCheckedItemPositions()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getCount()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setOnCreateContextMenuListener(android.view.View$OnCreateContextMenuListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setClipToPadding(boolean)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getPaddingLeft()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getPaddingTop()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getPaddingRight()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getPaddingBottom()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setFastScrollEnabled(boolean)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setFastScrollAlwaysVisible(boolean)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setScrollBarStyle(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: int getScrollBarStyle()
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setMultiChoiceModeListener(android.widget.AbsListView$MultiChoiceModeListener)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setTranscriptMode(int)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setBlockLayoutChildren(boolean)
+se.emilsjolander.stickylistheaders.StickyListHeadersListView: void setStackFromBottom(boolean)
+se.emilsjolander.stickylistheaders.WrapperView: android.view.View getItem()
+se.emilsjolander.stickylistheaders.WrapperView: android.view.View getHeader()

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TitleBarStyle"
+        android:text="号码归属地查询" />
+
+    <EditText
+        android:id="@+id/common_et_number"
+        style="@style/setupFindTitleStyle"
+        android:layout_width="match_parent"
+        android:background="@drawable/callsms_input_number"
+        android:hint="请输入需要查询电话号码"
+        android:inputType="number" />
+
+   <Button
+        android:id="@+id/common_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/btn_primary_selector"
+        android:text="查询"
+        android:textColor="@android:color/white" />
+   <TextView 
+       android:id="@+id/common_tv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+       android:textSize="17dp"
+       android:text="归属地:"
+       
+       />
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mytoast_normal"
+    android:layout_margin="5dp"
+    android:padding="3dp"
+     >
+    
+    <ImageView 
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/location"
+        android:id="@+id/mytoast_iv"
+        />
+    <TextView 
+        android:layout_toRightOf="@id/mytoast_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="湖北省武汉市"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dp"
+        android:id="@+id/mytoast_title"
+        />
+
+</RelativeLayout>

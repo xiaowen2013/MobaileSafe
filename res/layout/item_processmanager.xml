@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/process_primary_selector"
+    android:orientation="horizontal"
+    android:padding="7dp" >
+
+    <ImageView
+        android:id="@+id/item_promam_iv_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher1" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="4dp" >
+
+        <TextView
+            android:id="@+id/item_proman_tv_appname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="黑马卫士"
+            android:textColor="@android:color/black"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/item_proman_tv_momory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_proman_tv_appname"
+            android:layout_marginTop="2dp"
+            android:text="占用的内存:198.98M"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/item_promam_cb_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+</LinearLayout>

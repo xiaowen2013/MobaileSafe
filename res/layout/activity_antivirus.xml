@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/SetupTitleBarStyle"
+        android:gravity="center"
+        android:text="手机杀毒" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/global_blue" >
+
+        <RelativeLayout
+            android:id="@+id/virus_rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.github.lzyzsd.circleprogress.CircleProgress
+                android:id="@+id/virus_circle_progress"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="50dp" />
+
+            <TextView
+                android:id="@+id/virus_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/virus_circle_progress"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textSize="17dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/virus_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/virus_tv_safetitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textSize="19dp" />
+
+            <Button
+                android:id="@+id/virus_btn_rescan"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_primary_selector"
+                android:text="重新扫描"
+                android:textColor="@android:color/white"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/virus_rl_iv"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/virus_iv_animation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/virus_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>

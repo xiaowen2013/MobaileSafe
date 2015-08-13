@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">安全卫士</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sample_device_admin_description">手机安全卫士,时刻保护你的手机安全!</string>
+    <string name="sample_device_admin">手机安全卫士!</string>
+    <string name="accessibility_service_description">手机安全卫士锁,保护你的程序!</string>
+    <string name="crash_toast_text">bug正在修复中....</string>
+    <string name="crash_dialog_title">CrashTest has crashed</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing the
+    application to stop. Please help us fix this by sending us error data,
+    all you have to do is click OK.</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="crash_dialog_ok_toast">Thank you !</string>
+    <string name="crash_user_email_label">xxxx@gmail.com</string>
+
+</resources>

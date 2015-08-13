@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/item_unlock"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/item_unlock_selector"
+        android:gravity="center"
+        android:text="未加锁"
+        android:textColor="@color/lock_textcolor_select"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/item_lock"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/item_lock_selector"
+        android:gravity="center"
+        android:text="已加锁"
+        android:textColor="@color/lock_textcolor_select"
+        android:textSize="18dp" />
+
+</LinearLayout>

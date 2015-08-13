@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="global_blue">#459FD7</color>
+     <color name="btn_normal_color">#ffffff</color>
+    <color name="btn_pressed_color">#99ffcc</color>
+    <color name="btn_pressed_black_color">#3399ffcc</color>
+    <color name="btn_normal_black_color">#55000000</color>
+    <color name="textColorPrimary">#ffffffff</color>
+     <color name="white">#ffffffff</color>
+      <color name="textColorPrimaryDark">#ff000000</color>
+      <color name="bule">#0079ff</color>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/SetupTitleBarStyle"
+        android:gravity="center"
+        android:id="@+id/black_tv_title"
+        android:text="添加黑名单" />
+
+    <TextView
+        style="@style/setupFindTitleStyle"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:text="电话号码" />
+
+    <EditText
+        android:background="@drawable/callsms_input_number"
+        android:id="@+id/cassfe_et_phenum"
+        style="@style/setupFindTitleStyle"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:hint="请输入电话号码" />
+
+    <TextView
+        style="@style/setupFindTitleStyle"
+        android:layout_marginLeft="9dp"
+        android:text="拦截类型"
+        
+        android:textColor="#cc000000"
+        android:textSize="17dp" />
+
+    <RadioGroup
+        android:id="@+id/cassfe_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/cassfe_rb_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="电话" />
+
+        
+        
+        <RadioButton
+            android:id="@+id/cassfe_rb_sms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="短信" />
+
+        <RadioButton
+            android:id="@+id/cassfe_rb_all"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="全部" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/black_btn_save"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_primary_selector"
+                android:text="保存" />
+
+            <Button
+                android:id="@+id/black_btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="取消" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
